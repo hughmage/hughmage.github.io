@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Calculadora Puntaje NEM Chile</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #3498db;
+    --primary-dark: #2980b9;
+    --secondary: #2ecc71;
+    --dark: #2c3e50;
+    --light: #ecf0f1;
+    --gray: #95a5a6;
+    --danger: #e74c3c;
+    --warning: #f39c12;
+    --success: #27ae60;
+    --bg: #f5f7fa;
+    --text: #2c3e50;
+    --card-bg: white;
+    --border: #eee;
+    --input-bg: white;
+  }
+
+  /* Modo oscuro */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --text: #ecf0f1;
+      --card-bg: #2c3e50;
+      --border: #3d566e;
+      --input-bg: #34495e;
+      --dark: #ecf0f1;
+      --light: #2c3e50;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    transition: all 0.3s ease;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  
+  h1 {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: var(--gray);
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--dark);
+  }
+  
+  select, input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: var(--input-bg);
+    color: var(--text);
+  }
+  
+  select:focus, input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  }
+
+  /* Validación visual */
+  input.valid {
+    border-color: var(--success);
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2327ae60' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    padding-right: 35px;
+  }
+
+  input.invalid {
+    border-color: var(--danger);
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23e74c3c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' y1='8' x2='12' y2='12'/%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    padding-right: 35px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .input-item {
+    flex: 1;
+  }
+  
+  .help-link {
+    font-size: 0.85rem;
+    color: var(--primary);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 5px;
+    transition: all 0.2s ease;
+  }
+  
+  .help-link:hover {
+    text-decoration: underline;
+    transform: translateX(2px);
+  }
+  
+  .help-link svg {
+    margin-right: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+
+  button.secondary {
+    background-color: var(--gray);
+    margin-top: 10px;
+  }
+
+  button.secondary:hover {
+    background-color: #7f8c8d;
+    box-shadow: 0 5px 15px rgba(149, 165, 166, 0.3);
+  }
+  
+  #resultado {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: var(--light);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary);
+    display: none;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  
+  .result-title {
+    color: var(--primary);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .result-item {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .result-label {
+    font-weight: 500;
+    color: var(--dark);
+  }
+  
+  .result-value {
+    font-weight: 600;
+    color: var(--dark);
+  }
+  
+  .notas-container {
+    background-color: var(--card-bg);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .notas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .nota-item {
+    display: flex;
+    justify-content: space-between;
+    animation: slideIn 0.3s ease;
+  }
+
+  .nota-item:nth-child(1) { animation-delay: 0.1s; }
+  .nota-item:nth-child(2) { animation-delay: 0.2s; }
+  .nota-item:nth-child(3) { animation-delay: 0.3s; }
+  .nota-item:nth-child(4) { animation-delay: 0.4s; }
+  
+  .promedio-box {
+    background-color: var(--primary);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  .puntaje-box {
+    background-color: var(--success);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    animation: fadeIn 0.6s ease;
+  }
+  
+  .error-message {
+    color: var(--danger);
+    font-size: 0.9rem;
+    margin-top: 5px;
+    display: none;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .info-box {
+    background-color: var(--light);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    border-left: 4px solid var(--primary);
+    animation: fadeIn 0.4s ease;
+  }
+
+  .section {
+    margin: 30px 0;
+    animation: fadeIn 0.5s ease;
+  }
+
+  .section-title {
+    color: var(--primary);
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .spinner {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s ease-in-out infinite;
+    margin-right: 8px;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  /* Estilos actualizados para los botones de compartir */
+  .share-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .share-button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 120px;
+    text-align: center;
+  }
+
+  .share-button svg {
+    margin-right: 8px;
+  }
+
+  .share-button.whatsapp {
+    background-color: #25D366;
+    color: white;
+  }
+
+  .share-button.copy {
+    background-color: var(--gray);
+    color: white;
+  }
+
+  .tab-container {
+    margin-top: 20px;
+  }
+
+  .tab-buttons {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .tab-button {
+    padding: 10px 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--gray);
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+    margin: 0;
+    width: auto;
+  }
+
+  .tab-button.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+  }
+
+  .tab-content {
+    display: none;
+    padding: 15px 0;
+    animation: fadeIn 0.4s ease;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+
+  .info-list {
+    list-style-type: none;
+  }
+
+  .info-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .info-list li:before {
+    content: "•";
+    color: var(--primary);
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+  }
+
+  .link-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    background-color: var(--light);
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.2s ease;
+  }
+
+  .link-item:hover {
+    background-color: var(--primary);
+    color: white;
+    transform: translateX(5px);
+  }
+
+  .link-item svg {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      margin: 15px;
+      padding: 15px;
+    }
+    
+    .input-group {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .notas-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .share-buttons {
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .share-button {
+      flex: 0 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Calculadora Puntaje NEM</h1>
+    <p class="subtitle">Transforma tus notas de enseñanza media a puntaje PAES</p>
+  </header>
+  
+  <div class="info-box">
+    Esta calculadora te permite transformar tu promedio de notas de enseñanza media (NEM) al puntaje utilizado en el proceso de admisión a las universidades chilenas.
+  </div>
+  
+  <div class="form-group">
+    <label for="grupo">Grupo de dependencia</label>
+    <select id="grupo">
+      <option value="">-- Selecciona tu grupo --</option>
+      <option value="A">Grupo A - Enseñanza Media Humanístico-Científica</option>
+      <option value="B">Grupo B - Enseñanza Media Humanístico-Científica de adultos</option>
+      <option value="C">Grupo C - Enseñanza Media Técnico Profesional</option>
+    </select>
+    <a href="https://demre.cl/paes/factores-seleccion/tabla-transformacion-nem" target="_blank" class="help-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+      </svg>
+      No sé cuál es mi grupo
+    </a>
+    <div id="grupo-error" class="error-message">Por favor, selecciona un grupo</div>
+  </div>
+  
+  <div class="form-group">
+    <label>Ingresa tus notas de enseñanza media</label>
+    <div class="input-group">
+      <div class="input-item">
+        <label for="nem1">1° Medio</label>
+        <input type="text" id="nem1" placeholder="Ej: 5,8" inputmode="decimal">
+        <div id="nem1-error" class="error-message">Nota inválida (1.0 - 7.0)</div>
+      </div>
+      <div class="input-item">
+        <label for="nem2">2° Medio</label>
+        <input type="text" id="nem2" placeholder="Ej: 6,2" inputmode="decimal">
+        <div id="nem2-error" class="error-message">Nota inválida (1.0 - 7.0)</div>
+      </div>
+    </div>
+    
+    <div class="input-group">
+      <div class="input-item">
+        <label for="nem3">3° Medio</label>
+        <input type="text" id="nem3" placeholder="Ej: 6,5" inputmode="decimal">
+        <div id="nem3-error" class="error-message">Nota inválida (1.0 - 7.0)</div>
+      </div>
+      <div class="input-item">
+        <label for="nem4">4° Medio</label>
+        <input type="text" id="nem4" placeholder="Ej: 6,7" inputmode="decimal">
+        <div id="nem4-error" class="error-message">Nota inválida (1.0 - 7.0)</div>
+      </div>
+    </div>
+  </div>
+  
+  <button id="calcular-btn">
+    <div class="spinner" id="calc-spinner"></div>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+      <polyline points="14 2 14 8 20 8"></polyline>
+      <line x1="16" y1="13" x2="8" y2="13"></line>
+      <line x1="16" y1="17" x2="8" y2="17"></line>
+      <polyline points="10 9 9 9 8 9"></polyline>
+    </svg>
+    Calcular Puntaje NEM
+  </button>
+
+  <button id="limpiar-btn" class="secondary">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;">
+      <path d="M3 6h18"></path>
+      <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+    </svg>
+    Limpiar Formulario
+  </button>
+  
+  <div id="resultado">
+    <h3 class="result-title">
+      <span>Resultados</span>
+      <span id="grupo-resultado" style="font-size: 0.9rem; font-weight: 400;"></span>
+    </h3>
+    
+    <div class="notas-container">
+      <h4 style="margin-bottom: 10px; font-weight: 500;">Tus notas</h4>
+      <div class="notas-grid">
+        <div class="nota-item">
+          <span class="result-label">1° Medio:</span>
+          <span class="result-value" id="show-nem1"></span>
+        </div>
+        <div class="nota-item">
+          <span class="result-label">2° Medio:</span>
+          <span class="result-value" id="show-nem2"></span>
+        </div>
+        <div class="nota-item">
+          <span class="result-label">3° Medio:</span>
+          <span class="result-value" id="show-nem3"></span>
+        </div>
+        <div class="nota-item">
+          <span class="result-label">4° Medio:</span>
+          <span class="result-value" id="show-nem4"></span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="promedio-box">
+      <div class="result-item">
+        <span>Promedio NEM:</span>
+        <span id="promedio-nem" style="font-weight: 600;"></span>
+      </div>
+    </div>
+    
+    <div class="puntaje-box">
+      <div class="result-item">
+        <span>Puntaje NEM:</span>
+        <span id="puntaje-nem" style="font-size: 1.4rem;"></span>
+      </div>
+    </div>
+
+    <div class="share-buttons">
+      <div class="share-button whatsapp" id="share-whatsapp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+        WhatsApp
+      </div>
+      <div class="share-button copy" id="copy-result">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+        </svg>
+        Copiar
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-container">
+    <div class="tab-buttons">
+      <button class="tab-button active" data-tab="tab-info">Información</button>
+      <button class="tab-button" data-tab="tab-faq">Preguntas Frecuentes</button>
+      <button class="tab-button" data-tab="tab-links">Enlaces Útiles</button>
+    </div>
+
+    <div class="tab-content active" id="tab-info">
+      <div class="section">
+        <h3 class="section-title">¿Qué es el NEM?</h3>
+        <p>El NEM (Notas de Enseñanza Media) es un factor de selección utilizado en el proceso de admisión a las universidades chilenas. Corresponde al promedio de tus notas de 1° a 4° medio, transformado a un puntaje estándar que va desde 100 hasta 1000 puntos.</p>
+      </div>
+
+      <div class="section">
+        <h3 class="section-title">¿Cómo se calcula el puntaje NEM?</h3>
+        <p>El cálculo del puntaje NEM se realiza en 3 pasos:</p>
+        <ol class="info-list">
+          <li>Se calcula el promedio simple de tus notas de 1° a 4° medio.</li>
+          <li>Este promedio se redondea a 2 decimales.</li>
+          <li>Según tu grupo de dependencia (A, B o C), se busca en la tabla de transformación del DEMRE el puntaje correspondiente a tu promedio.</li>
+        </ol>
+      </div>
+
+      <div class="section">
+        <h3 class="section-title">Importancia del NEM</h3>
+        <p>El puntaje NEM es uno de los componentes principales del puntaje de selección a la universidad, junto con el puntaje de la PAES (Prueba de Acceso a la Educación Superior). Dependiendo de la carrera y universidad, el NEM puede representar entre el 10% y el 40% de tu puntaje final.</p>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-faq">
+      <div class="section">
+        <h3 class="section-title">Preguntas Frecuentes</h3>
+        
+        <h4>¿Qué grupo de dependencia debo seleccionar?</h4>
+        <p>Debes seleccionar según el tipo de establecimiento donde cursaste tu enseñanza media:</p>
+        <ul class="info-list">
+          <li><strong>Grupo A:</strong> Enseñanza Media Humanístico-Científica regular (colegios científicos-humanistas diurnos).</li>
+          <li><strong>Grupo B:</strong> Enseñanza Media Humanístico-Científica de adultos (colegios nocturnos o de adultos).</li>
+          <li><strong>Grupo C:</strong> Enseñanza Media Técnico-Profesional (liceos técnicos).</li>
+        </ul>
+
+        <h4>¿Qué pasa si repetí un año?</h4>
+        <p>Para el cálculo del NEM solo se consideran las notas del último año cursado en cada nivel. Si repetiste 2° medio, por ejemplo, solo se considerarán las notas de la segunda vez que lo cursaste.</p>
+
+        <h4>¿Cómo afecta el NEM a mi postulación?</h4>
+        <p>El NEM es uno de los componentes de tu puntaje ponderado. Cada universidad y carrera asigna un porcentaje distinto al NEM en su ponderación, por lo que su importancia varía según tu elección de carrera.</p>
+
+        <h4>¿Puedo mejorar mi puntaje NEM?</h4>
+        <p>El NEM se calcula con tus notas definitivas de enseñanza media, por lo que una vez egresado no puedes modificarlo. Sin embargo, si realizas un nuevo proceso de admisión después de algunos años, algunas universidades permiten usar un NEM recalculado.</p>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-links">
+      <div class="section">
+        <h3 class="section-title">Enlaces Oficiales</h3>
+        
+        <a href="https://demre.cl/" target="_blank" class="link-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          Sitio Oficial DEMRE
+        </a>
+
+        <a href="https://demre.cl/paes/factores-seleccion/tabla-transformacion-nem" target="_blank" class="link-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          Tablas Oficiales de Transformación NEM
+        </a>
+
+        <a href="https://acceso.mineduc.cl/" target="_blank" class="link-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          Portal de Acceso a la Educación Superior - Mineduc
+        </a>
+
+        <h3 class="section-title" style="margin-top: 30px;">Recursos Adicionales</h3>
+
+        <a href="https://www.umayor.cl/admision/puntajes" target="_blank" class="link-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          Puntajes de Referencia Universidades
+        </a>
+
+        <a href="https://www.mifuturo.cl/" target="_blank" class="link-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          Mi Futuro - Información de Carreras
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Variables globales
+let tablasNEM = {};
+
+// Función para cargar las tablas NEM desde JSON
+async function cargarTablasNEM() {
+  try {
+    const response = await fetch('tabla_NEM_completa.json');
+    if (!response.ok) throw new Error('Error al cargar tablas NEM');
+    tablasNEM = await response.json();
+    console.log('Tablas NEM cargadas correctamente');
+  } catch (error) {
+    console.error('Error cargando tablas NEM:', error);
+    // Fallback básico en caso de error
+    tablasNEM = {
+      "A": {"4.00": 100, "7.00": 1000},
+      "B": {"4.00": 100, "7.00": 1000},
+      "C": {"4.00": 100, "7.00": 1000}
+    };
+  }
+}
+
+// Función para redondear a 2 decimales
+function redondearNota(nota) {
+  return Math.round(nota * 100) / 100;
+}
+
+// Función para buscar puntaje en la tabla
+function buscarPuntaje(grupo, nota) {
+  const tabla = tablasNEM[grupo];
+  if (!tabla) return 100; // Fallback si no existe el grupo
+
+  const notaRedondeada = redondearNota(nota);
+  const notaStr = notaRedondeada.toFixed(2);
+  
+  // Coincidencia exacta
+  if (tabla[notaStr] !== undefined) return tabla[notaStr];
+  
+  // Búsqueda del valor más cercano por debajo
+  const claves = Object.keys(tabla).map(Number).sort((a, b) => a - b);
+  for (let i = claves.length - 1; i >= 0; i--) {
+    if (claves[i] <= notaRedondeada) {
+      return tabla[claves[i].toFixed(2)];
+    }
+  }
+  
+  return 100; // Valor por defecto
+}
+
+// Función para mostrar/ocultar mensajes de error
+function mostrarError(elementoId, mostrar) {
+  const elemento = document.getElementById(elementoId);
+  if (elemento) {
+    elemento.style.display = mostrar ? 'block' : 'none';
+  }
+}
+
+// Función para validar una nota individual
+function validarNota(notaId) {
+  const notaInput = document.getElementById(notaId);
+  const notaStr = notaInput.value.replace(',', '.');
+  const notaNum = parseFloat(notaStr);
+  
+  // Resetear clases de validación
+  notaInput.classList.remove('valid', 'invalid');
+  
+  if (notaStr === '') {
+    mostrarError(notaId + '-error', false);
+    return null;
+  }
+  
+  if (isNaN(notaNum)) {
+    notaInput.classList.add('invalid');
+    mostrarError(notaId + '-error', true);
+    return null;
+  }
+  
+  if (notaNum < 1 || notaNum > 7) {
+    notaInput.classList.add('invalid');
+    mostrarError(notaId + '-error', true);
+    return null;
+  }
+  
+  notaInput.classList.add('valid');
+  mostrarError(notaId + '-error', false);
+  return notaNum;
+}
+
+// Función para guardar datos en localStorage
+function guardarDatos() {
+  const datos = {
+    grupo: document.getElementById('grupo').value,
+    notas: {
+      nem1: document.getElementById('nem1').value,
+      nem2: document.getElementById('nem2').value,
+      nem3: document.getElementById('nem3').value,
+      nem4: document.getElementById('nem4').value
+    },
+    resultado: {
+      promedio: document.getElementById('promedio-nem').textContent,
+      puntaje: document.getElementById('puntaje-nem').textContent
+    }
+  };
+  localStorage.setItem('ultimoCalculoNEM', JSON.stringify(datos));
+}
+
+// Función para cargar datos guardados
+function cargarDatosGuardados() {
+  const datosGuardados = localStorage.getItem('ultimoCalculoNEM');
+  if (datosGuardados) {
+    const datos = JSON.parse(datosGuardados);
+    document.getElementById('grupo').value = datos.grupo;
+    document.getElementById('nem1').value = datos.notas.nem1;
+    document.getElementById('nem2').value = datos.notas.nem2;
+    document.getElementById('nem3').value = datos.notas.nem3;
+    document.getElementById('nem4').value = datos.notas.nem4;
+    
+    // Validar los campos cargados
+    if (datos.grupo) validarNota('grupo');
+    if (datos.notas.nem1) validarNota('nem1');
+    if (datos.notas.nem2) validarNota('nem2');
+    if (datos.notas.nem3) validarNota('nem3');
+    if (datos.notas.nem4) validarNota('nem4');
+  }
+}
+
+// Función para compartir en WhatsApp
+function compartirWhatsApp() {
+  const promedio = document.getElementById('promedio-nem').textContent;
+  const puntaje = document.getElementById('puntaje-nem').textContent;
+  const texto = `¡Calculé mi puntaje NEM!\nPromedio: ${promedio}- Puntaje: ${puntaje}\nCalcula el tuyo aquí: https://hughmage.github.io/`;
+  const url = `https://wa.me/?text=${encodeURIComponent(texto)}`;
+  window.open(url, '_blank', 'width=600,height=400');
+}
+
+// Función para copiar resultados
+function copiarResultados() {
+  const promedio = document.getElementById('promedio-nem').textContent;
+  const puntaje = document.getElementById('puntaje-nem').textContent;
+  const texto = `Mi puntaje NEM:\nPromedio: ${promedio}\nPuntaje: ${puntaje}\nCalculado en: ${window.location.href}`;
+  
+  navigator.clipboard.writeText(texto).then(() => {
+    const boton = document.getElementById('copy-result');
+    const originalText = boton.innerHTML;
+    boton.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Copiado!';
+    
+    setTimeout(() => {
+      boton.innerHTML = originalText;
+    }, 2000);
+  });
+}
+
+// Función para limpiar el formulario
+function limpiarFormulario() {
+  document.getElementById('grupo').selectedIndex = 0;
+  document.getElementById('nem1').value = '';
+  document.getElementById('nem2').value = '';
+  document.getElementById('nem3').value = '';
+  document.getElementById('nem4').value = '';
+  document.getElementById('resultado').style.display = 'none';
+  
+  // Resetear validación visual
+  document.querySelectorAll('input').forEach(input => {
+    input.classList.remove('valid', 'invalid');
+  });
+  
+  // Ocultar todos los mensajes de error
+  document.querySelectorAll('.error-message').forEach(el => {
+    el.style.display = 'none';
+  });
+  
+  // Limpiar localStorage
+  localStorage.removeItem('ultimoCalculoNEM');
+}
+
+// Función para manejar el cambio de pestañas
+function setupTabs() {
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabContents = document.querySelectorAll('.tab-content');
+  
+  tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Remover clase active de todos los botones y contenidos
+      tabButtons.forEach(btn => btn.classList.remove('active'));
+      tabContents.forEach(content => content.classList.remove('active'));
+      
+      // Agregar clase active al botón clickeado
+      button.classList.add('active');
+      
+      // Mostrar el contenido correspondiente
+      const tabId = button.getAttribute('data-tab');
+      document.getElementById(tabId).classList.add('active');
+    });
+  });
+}
+
+// Función principal de cálculo
+async function calcularNEM() {
+  // Mostrar spinner de carga
+  const spinner = document.getElementById('calc-spinner');
+  spinner.style.display = 'block';
+  
+  // Deshabilitar botón temporalmente
+  const calcularBtn = document.getElementById('calcular-btn');
+  calcularBtn.disabled = true;
+  
+  // Usar setTimeout para permitir que la UI se actualice
+  setTimeout(async () => {
+    try {
+      // Validar grupo seleccionado
+      const grupoSelect = document.getElementById('grupo');
+      const grupo = grupoSelect.value;
+      
+      if (!grupo) {
+        mostrarError('grupo-error', true);
+        grupoSelect.focus();
+        spinner.style.display = 'none';
+        calcularBtn.disabled = false;
+        return;
+      } else {
+        mostrarError('grupo-error', false);
+      }
+      
+      // Validar y obtener las notas
+      const notas = [
+        validarNota('nem1'),
+        validarNota('nem2'),
+        validarNota('nem3'),
+        validarNota('nem4')
+      ];
+      
+      // Verificar que todas las notas sean válidas
+      if (notas.some(nota => nota === null)) {
+        // Enfocar el primer campo con error
+        const primerError = ['nem1', 'nem2', 'nem3', 'nem4'].find(id => {
+          const input = document.getElementById(id);
+          return input.classList.contains('invalid');
+        });
+        
+        if (primerError) {
+          document.getElementById(primerError).focus();
+        }
+        
+        spinner.style.display = 'none';
+        calcularBtn.disabled = false;
+        return;
+      }
+      
+      // Calcular promedio
+      const suma = notas.reduce((total, nota) => total + nota, 0);
+      const promedio = suma / notas.length;
+      const promedioRedondeado = redondearNota(promedio);
+      
+      // Obtener puntaje NEM
+      const puntaje = buscarPuntaje(grupo, promedioRedondeado);
+      
+      // Mostrar resultados
+      document.getElementById('grupo-resultado').textContent = 
+        grupo === 'A' ? 'Grupo A - Enseñanza Media Regular' :
+        grupo === 'B' ? 'Grupo B - Enseñanza Media de Adultos' :
+        'Grupo C - Enseñanza Media Técnico Profesional';
+      
+      document.getElementById('show-nem1').textContent = notas[0].toFixed(2).replace('.', ',');
+      document.getElementById('show-nem2').textContent = notas[1].toFixed(2).replace('.', ',');
+      document.getElementById('show-nem3').textContent = notas[2].toFixed(2).replace('.', ',');
+      document.getElementById('show-nem4').textContent = notas[3].toFixed(2).replace('.', ',');
+      document.getElementById('promedio-nem').textContent = promedioRedondeado.toFixed(2).replace('.', ',');
+      document.getElementById('puntaje-nem').textContent = puntaje;
+      
+      // Guardar datos en localStorage
+      guardarDatos();
+      
+      // Mostrar sección de resultados
+      const resultadoSection = document.getElementById('resultado');
+      resultadoSection.style.display = 'block';
+      
+      // Scroll suave a los resultados
+      resultadoSection.scrollIntoView({ behavior: 'smooth' });
+      
+    } catch (error) {
+      console.error('Error al calcular NEM:', error);
+    } finally {
+      spinner.style.display = 'none';
+      calcularBtn.disabled = false;
+    }
+  }, 100); // Pequeño delay para permitir que el spinner se muestre
+}
+
+// Asignar eventos cuando el DOM esté cargado
+document.addEventListener('DOMContentLoaded', async function() {
+  // Cargar tablas primero
+  await cargarTablasNEM();
+  
+  // Luego el resto de la inicialización
+  cargarDatosGuardados();
+  
+  // Configurar botón de cálculo
+  document.getElementById('calcular-btn').addEventListener('click', calcularNEM);
+  
+  // Configurar botón de limpiar
+  document.getElementById('limpiar-btn').addEventListener('click', limpiarFormulario);
+  
+  // Configurar botones de compartir
+  document.getElementById('share-whatsapp').addEventListener('click', compartirWhatsApp);
+  document.getElementById('copy-result').addEventListener('click', copiarResultados);
+  
+  // Configurar pestañas
+  setupTabs();
+  
+  // Permitir calcular con Enter
+  document.querySelectorAll('input').forEach(input => {
+    input.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        calcularNEM();
+      }
+    });
+  });
+  
+  // Validación en tiempo real
+  document.querySelectorAll('input').forEach(input => {
+    input.addEventListener('input', function() {
+      const notaId = this.id;
+      validarNota(notaId);
+    });
+  });
+  
+  // Validación del select
+  document.getElementById('grupo').addEventListener('change', function() {
+    if (this.value) {
+      mostrarError('grupo-error', false);
+    }
+  });
+});
+</script>
+
+</body>
+</html>
