@@ -855,7 +855,7 @@ function compartirTwitter() {
 function compartirWhatsApp() {
   const promedio = document.getElementById('promedio-nem').textContent;
   const puntaje = document.getElementById('puntaje-nem').textContent;
-  const texto = `¡Calculé mi puntaje NEM! \nPromedio: ${promedio} ➡ Puntaje: ${puntaje}\nCalcula el tuyo aquí: https://hughmage.github.io/`;
+  const texto = `¡Calculé mi puntaje NEM!\nPromedio: ${promedio} - Puntaje: ${puntaje}\nCalcula el tuyo aquí: https://hughmage.github.io/`;
   const url = `https://wa.me/?text=${encodeURIComponent(texto)}`;
   window.open(url, '_blank', 'width=600,height=400');
 }
