@@ -350,8 +350,8 @@
     transform: translateY(-2px);
   }
 
-  .share-button.twitter {
-    background-color: #1DA1F2;
+  .share-button.instagram {
+    background-color: #E1306C;
     color: white;
   }
 
@@ -586,13 +586,14 @@
       </div>
     </div>
 
-    <div class="share-buttons">
-      <div class="share-button twitter" id="share-twitter">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-        </svg>
-        Twitter
-      </div>
+    <div class="share-button instagram" id="share-instagram">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+       <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+      </svg>
+      Instagram
+     </div>
       <div class="share-button whatsapp" id="share-whatsapp">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
@@ -842,13 +843,13 @@ function cargarDatosGuardados() {
   }
 }
 
-// Función para compartir en Twitter
-function compartirTwitter() {
+// Función para compartir en Instagram
+function compartirInstagram() {
   const promedio = document.getElementById('promedio-nem').textContent;
   const puntaje = document.getElementById('puntaje-nem').textContent;
   const texto = `¡Calculé mi puntaje NEM! 🎓\nPromedio: ${promedio} ➡ Puntaje: ${puntaje}\nCalcula el tuyo aquí: ${window.location.href}`;
-  const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(texto)}`;
-  window.open(url, '_blank', 'width=600,height=400');
+  // Instagram no tiene una API directa para compartir texto, así que usamos un enfoque genérico
+  window.open(`https://www.instagram.com/?text=${encodeURIComponent(texto)}`, '_blank');
 }
 
 // Función para compartir en WhatsApp
@@ -1028,7 +1029,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   document.getElementById('limpiar-btn').addEventListener('click', limpiarFormulario);
   
   // Configurar botones de compartir
-  document.getElementById('share-twitter').addEventListener('click', compartirTwitter);
+  document.getElementById('share-instagram').addEventListener('click', compartirInstagram);
   document.getElementById('share-whatsapp').addEventListener('click', compartirWhatsApp);
   document.getElementById('copy-result').addEventListener('click', copiarResultados);
   
