@@ -2548,5 +2548,935 @@
       "Ciencias": 10
     },
     "corte_2025": 476.10
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Artes Musicales y Sonoras, Licenciatura en Artes Musicales y Sonoras",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 601.10
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Agronomía, Licenciatura en Agronomía",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 508.85
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Auditoría, Licenciatura en Control de Gestión",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 568.95
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Creación Audiovisual, Licenciatura en Creación Audiovisual",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 448.10
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Administración de Empresas de Turismo, Licenciatura en Turismo",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 461.30
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Administración Pública, Licenciatura en Administración Pública y Ciencias Políticas",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 490.70
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Administración Pública, Licenciatura en Administración Pública y Ciencias Políticas",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 608.00
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Antropología, Licenciatura en Antropología",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 465.60
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Arquitectura, Licenciatura en Arquitectura",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 639.25
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Biología",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 536.20
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Biología Marina, Licenciatura en Biología Marina",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 636.10
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Bioquímica, Licenciatura en Bioquímica",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 621.60
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Derecho, Licenciatura en Ciencias Jurídicas y Sociales",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 682.90
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Derecho, Licenciatura en Ciencias Jurídicas y Sociales",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 655.60
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Diseño, Licenciatura en Diseño",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 519.90
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Enfermería, Licenciatura en Enfermería",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 707.25
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Enfermería, Licenciatura en Enfermería",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 612.45
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Fonoaudiología",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 511.30
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Ambiental",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 466.00
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Civil Acústica",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 572.25
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Civil Electrónica",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 553.75
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Civil en Informática",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 470.65
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Civil en Obras Civiles",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 520.65
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 621.85
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 699.75
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 526.90
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería en Conservación de Recursos Naturales - Ingeniería Forestal",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 456.00
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 468.50
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Naval",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 525.50
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Plan Común",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 543.25
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Kinesiología, Licenciatura en Kinesiología",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 673.10
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Medicina: Campo Clínico Osorno",
+    "sede": "Osorno",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 912.75
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Medicina Veterinaria, Licenciatura en Medicina Veterinaria",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 721.35
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Medicina: Campo Clínico Valdivia",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 921.10
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 35,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 725.55
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Odontología",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 35,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 721.50
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Comunicación en Lengua Inglesa",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 459.30
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Educación Básica con Menciones",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 506.20
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Educación Diferencial con Menciones",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 455.50
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Educación Física, Deportes y Recreación",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 600.30
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Educación Parvularia, Licenciatura en Educación Parvularia",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 460.75
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Educación Parvularia, Licenciatura en Educación Parvularia",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 472.70
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Historia y Ciencias Sociales",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 537.65
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Lenguaje y Comunicación, Licenciatura en Educación",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 444.00
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Pedagogía en Matemáticas, Licenciatura en Educación",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 559.40
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Periodismo",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 524.15
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Psicología",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 619.90
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Psicología",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 729.00
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Química y Farmacia",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 35,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 748.25
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Tecnología Médica",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 716.50
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Tecnología Médica",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 540.30
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 630.80
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 439.10
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Geología, Licenciatura en Geología",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 452.00
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería en Información y Control de Gestión",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 483.20
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Licenciatura en Ciencias con Mención",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 569.70
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Licenciatura en Artes Visuales",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 490.15
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Química",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 535.20
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Arqueología, Licenciatura en Arqueología",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 35,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 577.90
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Trabajo Social, Licenciatura en Trabajo Social",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 467.30
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Valdivia",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 617.40
+  },
+  {
+    "universidad": "Universidad Austral de Chile",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Puerto Montt",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 577.70
   }
 ]
