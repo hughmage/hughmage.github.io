@@ -16,34 +16,48 @@
     --danger: #e74c3c;
     --warning: #f39c12;
     --success: #27ae60;
+    
+    /* Variables de Tema Claro (por defecto) */
     --bg: #f5f7fa;
     --text: #2c3e50;
     --card-bg: white;
     --border: #eee;
     --input-bg: white;
+    --header-text: var(--primary);
+    --subtitle-text: var(--gray);
+    --label-text: var(--dark);
+    /* Nuevas variables para los fondos de las cajas de resultado */
+    --puntaje-box-bg: var(--success);
+    --promedio-box-bg: var(--primary);
   }
 
-  /* Dark Mode */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #1a1a1a;
-      --text: #ecf0f1;
-      --card-bg: #2c3e50;
-      --border: #3d566e;
-      --input-bg: #34495e;
-      --dark: #ecf0f1;
-      --light: #2c3e50;
-    }
+  body.dark-mode {
+    --bg: #1a1a1a;
+    --text: #ecf0f1;
+    --card-bg: #2c3e50;
+    --border: #3d566e;
+    --input-bg: #34495e;
+    --header-text: #5dade2;
+    --subtitle-text: #bdc3c7;
+    --label-text: #ecf0f1;
+    --light: #2c3e50;
+    /* Colores con mayor contraste para el modo noche */
+    --puntaje-box-bg: #2ecc71; /* Verde más brillante */
+    --promedio-box-bg: #5dade2; /* Azul más brillante */
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
   
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
     color: var(--text);
     line-height: 1.6;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   .container {
@@ -53,8 +67,34 @@
     background: var(--card-bg);
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease;
+    position: relative;
   }
+  
+  .theme-toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--light);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    z-index: 100;
+  }
+  .theme-toggle-btn:hover {
+    transform: scale(1.1);
+  }
+  .theme-toggle-btn svg {
+    stroke: var(--text);
+    transition: stroke 0.3s ease;
+  }
+  #theme-icon-sun { display: none; }
   
   header {
     text-align: center;
@@ -63,10 +103,10 @@
     border-bottom: 1px solid var(--border);
   }
   
-  h1 { color: var(--primary); font-weight: 600; margin-bottom: 10px; }
-  .subtitle { color: var(--gray); font-weight: 300; font-size: 1rem; }
-  .form-group { margin-bottom: 20px; animation: fadeIn 0.5s ease; }
-  label { display: block; margin-bottom: 8px; font-weight: 500; color: var(--dark); }
+  h1 { color: var(--header-text); font-weight: 600; margin-bottom: 10px; }
+  .subtitle { color: var(--subtitle-text); font-weight: 300; font-size: 1rem; }
+  .form-group { margin-bottom: 20px; }
+  label { display: block; margin-bottom: 8px; font-weight: 500; color: var(--label-text); }
   
   select, input {
     width: 100%;
@@ -131,19 +171,21 @@
   button.secondary { background-color: var(--gray); margin-top: 10px; }
   button.secondary:hover { background-color: #7f8c8d; box-shadow: 0 5px 15px rgba(149, 165, 166, 0.3); }
   
-  #resultado, #resultado-simulador { margin-top: 30px; padding: 20px; background-color: var(--light); border-radius: 8px; border-left: 4px solid var(--primary); display: none; animation: fadeIn 0.5s ease; }
+  #resultado, #resultado-simulador { margin-top: 30px; padding: 20px; background-color: var(--light); border-radius: 8px; border-left: 4px solid var(--primary); display: none; }
   .result-title { color: var(--primary); margin-bottom: 15px; display: flex; align-items: center; justify-content: space-between; }
   .result-item { margin-bottom: 12px; display: flex; justify-content: space-between; }
-  .result-label { font-weight: 500; color: var(--dark); }
-  .result-value { font-weight: 600; color: var(--dark); }
+  .result-label { font-weight: 500; color: var(--label-text); }
+  .result-value { font-weight: 600; color: var(--label-text); }
   .notas-container { background-color: var(--card-bg); padding: 15px; border-radius: 8px; margin: 15px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
   .notas-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .nota-item { display: flex; justify-content: space-between; animation: slideIn 0.3s ease; }
-  .promedio-box { background-color: var(--primary); color: white; padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; animation: fadeIn 0.5s ease; }
-  .puntaje-box { background-color: var(--success); color: white; padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; font-size: 1.2rem; font-weight: 600; animation: fadeIn 0.6s ease; }
-  .error-message { color: var(--danger); font-size: 0.9rem; margin-top: 5px; display: none; animation: fadeIn 0.3s ease; }
-  .info-box { background-color: var(--light); padding: 15px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; border-left: 4px solid var(--primary); animation: fadeIn 0.4s ease; }
-  .section-title { color: var(--primary); margin-bottom: 15px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .nota-item { display: flex; justify-content: space-between; }
+  
+  /* Usando las nuevas variables de color */
+  .promedio-box { background-color: var(--promedio-box-bg); color: white; padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; transition: background-color 0.3s ease; }
+  .puntaje-box { background-color: var(--puntaje-box-bg); color: white; padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; font-size: 1.2rem; font-weight: 600; transition: background-color 0.3s ease; }
+  
+  .error-message { color: var(--danger); font-size: 0.9rem; margin-top: 5px; display: none; }
+  .info-box { background-color: var(--light); padding: 15px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; border-left: 4px solid var(--primary); }
   
   .spinner {
     display: none;
@@ -155,10 +197,7 @@
     animation: spin 1s ease-in-out infinite;
     margin-right: 8px;
   }
-
   @keyframes spin { to { transform: rotate(360deg); } }
-  @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-  @keyframes slideIn { from { opacity: 0; transform: translateX(-20px); } to { opacity: 1; transform: translateX(0); } }
 
   .main-tab-buttons { display: flex; border-bottom: 2px solid var(--border); margin-bottom: 25px; }
   .main-tab-button {
@@ -169,7 +208,7 @@
   }
   .main-tab-button.active { color: var(--primary); border-bottom-color: var(--primary); }
   .main-tab-content { display: none; }
-  .main-tab-content.active { display: block; animation: fadeIn 0.6s ease; }
+  .main-tab-content.active { display: block; }
 
   .ponderacion-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 20px; }
   .score-input-group { display: flex; align-items: center; gap: 10px; }
@@ -191,18 +230,7 @@
     color: var(--primary);
     margin-bottom: 20px;
   }
-  .faq-item {
-    margin-bottom: 15px;
-  }
-  .faq-item h3 {
-    font-weight: 500;
-    color: var(--dark);
-  }
-  .faq-item p {
-    margin-top: 5px;
-    padding-left: 10px;
-    border-left: 2px solid var(--primary-light);
-  }
+  
   .useful-links-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -239,6 +267,78 @@
     color: var(--gray);
   }
 
+  .faq-item {
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 10px;
+  }
+  .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 15px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--label-text);
+  }
+  .faq-question::after {
+    content: '+';
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  .faq-question.active::after {
+    transform: rotate(45deg);
+  }
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 10px;
+  }
+  .faq-answer p {
+    padding-bottom: 15px;
+  }
+  
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    z-index: 1000;
+  }
+  #back-to-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  #back-to-top-btn:hover {
+    background-color: var(--primary-dark);
+    transform: scale(1.1);
+  }
+
   @media (max-width: 480px) {
     .container { margin: 15px; padding: 15px; }
     .input-group, .ponderacion-grid { flex-direction: column; gap: 15px; }
@@ -250,209 +350,39 @@
 <body>
 
 <div class="container">
+  <button class="theme-toggle-btn" id="theme-toggle">
+    <svg id="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+    <svg id="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+  </button>
+
   <header>
     <h1>Calculadora y Simulador PAES</h1>
     <p class="subtitle">Calcula tu NEM y simula tu puntaje ponderado para la carrera de tus sueños</p>
   </header>
 
   <div class="main-tab-buttons">
-    <button class="main-tab-button active" data-tab="calculadora-nem">Calculadora NEM</button>
+    <button class="main-tab-button" data-tab="calculadora-nem">Calculadora NEM</button>
     <button class="main-tab-button" data-tab="simulador-paes">Simulador PAES</button>
   </div>
 
-  <div class="main-tab-content active" id="calculadora-nem">
-    <div class="info-box">
-      Esta calculadora te permite transformar tu promedio de notas de enseñanza media (NEM) al puntaje estándar utilizado en el proceso de admisión.
+  <div class="main-tab-content" id="calculadora-nem">
     </div>
-    
-    <div class="form-group">
-      <label for="grupo">Grupo de dependencia</label>
-      <select id="grupo">
-        <option value="">-- Selecciona tu grupo --</option>
-        <option value="A">Grupo A - Enseñanza Media Humanístico-Científica</option>
-        <option value="B">Grupo B - Enseñanza Media Humanístico-Científica de adultos</option>
-        <option value="C">Grupo C - Enseñanza Media Técnico Profesional</option>
-      </select>
-      <a href="https://demre.cl/paes/factores-seleccion/tabla-transformacion-nem" target="_blank" class="help-link">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-        No sé cuál es mi grupo
-      </a>
-      <div id="grupo-error" class="error-message">Por favor, selecciona un grupo</div>
-    </div>
-    
-    <div class="form-group">
-      <label>Ingresa tus notas de enseñanza media</label>
-      <div class="input-group">
-        <div class="input-item"><label for="nem1">1° Medio</label><input type="text" id="nem1" placeholder="Ej: 5,8" inputmode="decimal"><div id="nem1-error" class="error-message">Nota inválida (1.0 - 7.0)</div></div>
-        <div class="input-item"><label for="nem2">2° Medio</label><input type="text" id="nem2" placeholder="Ej: 6,2" inputmode="decimal"><div id="nem2-error" class="error-message">Nota inválida (1.0 - 7.0)</div></div>
-      </div>
-      <div class="input-group" style="margin-top:15px;">
-        <div class="input-item"><label for="nem3">3° Medio</label><input type="text" id="nem3" placeholder="Ej: 6,5" inputmode="decimal"><div id="nem3-error" class="error-message">Nota inválida (1.0 - 7.0)</div></div>
-        <div class="input-item"><label for="nem4">4° Medio</label><input type="text" id="nem4" placeholder="Ej: 6,7" inputmode="decimal"><div id="nem4-error" class="error-message">Nota inválida (1.0 - 7.0)</div></div>
-      </div>
-    </div>
-    
-    <button id="calcular-btn">
-      <div class="spinner" id="calc-spinner"></div>
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-      Calcular Puntaje NEM
-    </button>
-    <button id="limpiar-btn" class="secondary">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M3 6h18"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-      Limpiar Formulario
-    </button>
-    
-    <div id="resultado">
-      <h3 class="result-title"><span>Resultados NEM</span><span id="grupo-resultado" style="font-size: 0.9rem; font-weight: 400;"></span></h3>
-      <div class="notas-container">
-        <div class="notas-grid">
-          <div class="nota-item"><span class="result-label">1° Medio:</span><span class="result-value" id="show-nem1"></span></div>
-          <div class="nota-item"><span class="result-label">2° Medio:</span><span class="result-value" id="show-nem2"></span></div>
-          <div class="nota-item"><span class="result-label">3° Medio:</span><span class="result-value" id="show-nem3"></span></div>
-          <div class="nota-item"><span class="result-label">4° Medio:</span><span class="result-value" id="show-nem4"></span></div>
-        </div>
-      </div>
-      <div class="promedio-box"><div class="result-item"><span>Promedio NEM:</span><span id="promedio-nem" style="font-weight: 600;"></span></div></div>
-      <div class="puntaje-box"><div class="result-item"><span>Puntaje NEM:</span><span id="puntaje-nem" style="font-size: 1.4rem;"></span></div></div>
-    </div>
-  </div>
 
   <div class="main-tab-content" id="simulador-paes">
-    <div class="info-box">
-      Selecciona una carrera, ingresa tus puntajes estimados y descubre cómo te posicionas respecto al puntaje de corte del último proceso de admisión.
-    </div>
-    
-    <div class="form-group">
-      <label for="universidad">Universidad</label>
-      <select id="universidad"><option value="">-- Cargando universidades... --</option></select>
     </div>
 
-    <div class="form-group">
-      <label for="carrera">Carrera</label>
-      <select id="carrera" disabled><option value="">-- Selecciona una universidad primero --</option></select>
+  <div class="info-section fade-in-section">
     </div>
 
-    <div class="form-group">
-      <label>Ingresa tus puntajes PAES (100 - 1000)</label>
-      <div class="ponderacion-grid">
-        <div class="input-item">
-          <div class="score-input-group">
-            <label for="p-nem">Puntaje NEM</label>
-            <input type="number" id="p-nem" placeholder="100-1000">
-          </div>
-          <div class="ponderacion-info" id="w-nem"></div>
-        </div>
-        <div class="input-item">
-          <div class="score-input-group">
-            <label for="p-ranking">Ranking</label>
-            <input type="number" id="p-ranking" placeholder="100-1000">
-          </div>
-          <div class="ponderacion-info" id="w-ranking"></div>
-        </div>
-        <div class="input-item">
-          <div class="score-input-group">
-            <label for="p-lectora">C. Lectora</label>
-            <input type="number" id="p-lectora" placeholder="100-1000">
-          </div>
-          <div class="ponderacion-info" id="w-lectora"></div>
-        </div>
-        <div class="input-item">
-          <div class="score-input-group">
-            <label for="p-m1">Matemática M1</label>
-            <input type="number" id="p-m1" placeholder="100-1000">
-          </div>
-          <div class="ponderacion-info" id="w-m1"></div>
-        </div>
-        <div class="input-item">
-          <div class="score-input-group">
-            <label for="p-m2">Matemática M2</label>
-            <input type="number" id="p-m2" placeholder="100-1000">
-          </div>
-          <div class="ponderacion-info" id="w-m2"></div>
-        </div>
-        <div class="input-item">
-          <div class="score-input-group">
-            <label for="p-ciencias">Ciencias</label>
-            <input type="number" id="p-ciencias" placeholder="100-1000">
-          </div>
-          <div class="ponderacion-info" id="w-ciencias"></div>
-        </div>
-         <div class="input-item">
-          <div class="score-input-group">
-            <label for="p-historia">Historia</label>
-            <input type="number" id="p-historia" placeholder="100-1000">
-          </div>
-          <div class="ponderacion-info" id="w-historia"></div>
-        </div>
-      </div>
-    </div>
-    <button id="simular-btn">
-       <div class="spinner" id="sim-spinner"></div>
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20V16"></path></svg>
-      Simular Puntaje
-    </button>
-
-     <div id="resultado-simulador">
-        <h3 class="result-title"><span>Resultado de la Simulación</span></h3>
-        <div class="puntaje-box">
-            <div class="result-item">
-                <span>Tu Puntaje Ponderado:</span>
-                <span id="puntaje-ponderado" class="result-value"></span>
-            </div>
-        </div>
-        <div class="corte-info">
-            Puntaje de Corte 2025: <strong id="puntaje-corte"></strong>
-        </div>
-        <div class="promedio-box">
-            <div class="result-item">
-                <span>Diferencia con el corte:</span>
-                <span id="diferencia-puntaje" class="diferencia"></span>
-            </div>
-        </div>
-    </div>
-  </div>
-
-  <div class="info-section">
-    <h2>Preguntas Frecuentes</h2>
-    <div class="faq-item">
-      <h3>¿Qué es el NEM?</h3>
-      <p>El NEM (Notas de Enseñanza Media) es un factor de selección utilizado en el proceso de admisión a las universidades chilenas. Corresponde al promedio de tus notas de 1° a 4° medio, transformado a un puntaje estándar que va desde 100 hasta 1000 puntos.</p>
-    </div>
-    <div class="faq-item">
-      <h3>¿Cómo se calcula el puntaje NEM?</h3>
-      <p>El cálculo del puntaje NEM se realiza en 3 pasos: Se calcula el promedio simple de tus notas de 1° a 4° medio. Este promedio se redondea a 2 decimales. Según tu grupo de dependencia (A, B o C), se busca en la tabla de transformación del DEMRE el puntaje correspondiente a tu promedio.</p>
-    </div>
-    <div class="faq-item">
-      <h3>Importancia del NEM</h3>
-      <p>El puntaje NEM es uno de los componentes principales del puntaje de selección a la universidad, junto con el puntaje de la PAES (Prueba de Acceso a la Educación Superior). Dependiendo de la carrera y universidad, el NEM puede representar entre el 10% y el 40% de tu puntaje final.</p>
-    </div>
-    <div class="faq-item">
-      <h3>¿Qué grupo de dependencia debo seleccionar?</h3>
-      <p>Debes seleccionar según el tipo de establecimiento donde cursaste tu enseñanza media: Grupo A: Enseñanza Media Humanístico-Científica regular (colegios científicos-humanistas diurnos). Grupo B: Enseñanza Media Humanístico-Científica de adultos (colegios nocturnos o de adultos). Grupo C: Enseñanza Media Técnico-Profesional (liceos técnicos).</p>
-    </div>
-    <div class="faq-item">
-        <h3>¿Qué pasa si repetí un año?</h3>
-        <p>Para el cálculo del NEM solo se consideran las notas del último año cursado en cada nivel. Si repetiste 2° medio, por ejemplo, solo se considerarán las notas de la segunda vez que lo cursaste.</p>
-    </div>
-    <div class="faq-item">
-        <h3>¿Cómo afecta el NEM a mi postulación?</h3>
-        <p>El NEM es uno de los componentes de tu puntaje ponderado. Cada universidad y carrera asigna un porcentaje distinto al NEM en su ponderación, por lo que su importancia varía según tu elección de carrera.</p>
-    </div>
-    <div class="faq-item">
-        <h3>¿Puedo mejorar mi puntaje NEM?</h3>
-        <p>El NEM se calcula con tus notas definitivas de enseñanza media, por lo que una vez egresado no puedes modificarlo. Sin embargo, si realizas un nuevo proceso de admisión después de algunos años, algunas universidades permiten usar un NEM recalculado.</p>
-    </div>
-  </div>
-
-  <div class="info-section">
+  <div class="info-section fade-in-section">
     <h2>Enlaces Útiles</h2>
     <div class="useful-links-grid">
       <a href="https://certificados.mineduc.cl/certificados-web/mvc/home/index?landingHome=estudios" target="_blank" class="useful-link">
-        Calcula tu NEM Aquí
+        Obtiene tus notas aquí
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
       </a>
       <a href="https://mifuturo.cl/buscador-de-empleabilidad-e-ingresos/" target="_blank" class="useful-link">
-        Datos de empleabilidad e ingresos
+        Datos de empleabilidad e ingresos para carreras
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
       </a>
       <a href="https://demre.cl/paes/factores-seleccion/tabla-transformacion-nem" target="_blank" class="useful-link">
@@ -466,10 +396,12 @@
     </div>
   </div>
 
-  <div class="about-section">
+  <div class="about-section fade-in-section">
     Página creada con ayuda de IAs, por Hugh - Renato y Cinthia.
   </div>
 </div>
+
+<button id="back-to-top-btn" title="Volver arriba">&uarr;</button>
 
 <script>
 // --- GLOBAL VARIABLES ---
@@ -736,25 +668,101 @@ function simularPuntaje() {
     }, 100);
 }
 
-// --- TAB SWITCHING LOGIC ---
-function setupMainTabs() {
-  const tabButtons = document.querySelectorAll('.main-tab-button');
-  const tabContents = document.querySelectorAll('.main-tab-content');
-  
-  tabButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      tabButtons.forEach(btn => btn.classList.remove('active'));
-      tabContents.forEach(content => content.classList.remove('active'));
-      
-      button.classList.add('active');
-      const tabId = button.getAttribute('data-tab');
-      document.getElementById(tabId).classList.add('active');
-    });
-  });
-}
-
 // --- DOMContentLoaded EVENT LISTENER ---
 document.addEventListener('DOMContentLoaded', async function() {
+
+  const themeToggle = document.getElementById('theme-toggle');
+  const body = document.body;
+  const sunIcon = document.getElementById('theme-icon-sun');
+  const moonIcon = document.getElementById('theme-icon-moon');
+
+  const applyTheme = (theme) => {
+    if (theme === 'dark') {
+      body.classList.add('dark-mode');
+      sunIcon.style.display = 'block';
+      moonIcon.style.display = 'none';
+    } else {
+      body.classList.remove('dark-mode');
+      sunIcon.style.display = 'none';
+      moonIcon.style.display = 'block';
+    }
+  };
+
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = body.classList.contains('dark-mode') ? 'dark' : 'light';
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', newTheme);
+    applyTheme(newTheme);
+  });
+
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  if (savedTheme) {
+    applyTheme(savedTheme);
+  } else if (prefersDark) {
+    applyTheme('dark');
+  } else {
+    applyTheme('light');
+  }
+
+  const tabButtons = document.querySelectorAll('.main-tab-button');
+  const tabContents = document.querySelectorAll('.main-tab-content');
+  const lastTab = localStorage.getItem('lastTab') || 'calculadora-nem';
+
+  function activateTab(tabId) {
+    tabButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tabId));
+    tabContents.forEach(content => content.classList.toggle('active', content.id === tabId));
+    localStorage.setItem('lastTab', tabId);
+  }
+
+  tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      activateTab(button.dataset.tab);
+    });
+  });
+  
+  activateTab(lastTab);
+
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      question.classList.toggle('active');
+      if (question.classList.contains('active')) {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+        answer.style.padding = "0 10px 15px";
+      } else {
+        answer.style.maxHeight = null;
+        answer.style.padding = "0 10px";
+      }
+    });
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in-section').forEach(section => {
+    observer.observe(section);
+  });
+
+  const backToTopBtn = document.getElementById('back-to-top-btn');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.classList.add('show');
+    } else {
+      backToTopBtn.classList.remove('show');
+    }
+  });
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
   const dataLoaded = await fetchData();
   
   if (dataLoaded) {
@@ -762,8 +770,6 @@ document.addEventListener('DOMContentLoaded', async function() {
   } else {
     document.getElementById('universidad').innerHTML = '<option value="">Error al cargar datos</option>';
   }
-
-  setupMainTabs();
   
   document.getElementById('calcular-btn').addEventListener('click', calcularNEM);
   document.getElementById('limpiar-btn').addEventListener('click', limpiarFormularioNEM);
