@@ -869,4 +869,935 @@
     },
     "corte_2025": 746.80
   }
+  
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Arte",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 483.20
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Agronomía",
+    "sede": "Quillota",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 519.90
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Animación Digital",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 546.20
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Administración Pública",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 608.40
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Arquitectura",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 744.60
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Bachillerato en Ciencias",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 625.70
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Bachillerato en Ingeniería",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 701.95
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Bioquímica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 670.10
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Contador Auditor",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 660.40
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Derecho",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 773.30
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Diseño",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 628.20
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Geografía",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 465.00
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 669.15
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil Bioquímica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 636.85
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil de Minas",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 712.50
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil Eléctrica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 721.20
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil Electrónica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 669.10
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil en Ciencia de Datos",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 638.60
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil en Construcción",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 621.10
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil en Telecomunicaciones",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 584.35
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil en Transporte",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 524.50
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 781.70
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 728.15
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "Quilpué",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 693.35
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil Metalúrgica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 689.75
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Civil Química",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 661.95
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Eléctrica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 643.60
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Electrónica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 596.00
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 529.70
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería en Informática",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 665.20
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Mecánica",
+    "sede": "Quilpué",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 619.95
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Kinesiología",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 697.2
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Licenciatura en Biología",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 627.4
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Licenciatura en Filosofía",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 617.3
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Licenciatura en Historia",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 25
+    },
+    "corte_2025": 423.95
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Oceanografía o Biología Marina",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 661
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Biología y Ciencias Naturales",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 534.8
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Castellano y Comunicación",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 505.6
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Educación Básica",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 610.2
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Educación Especial con Mención en Discapacidad Intelectual",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 614.9
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 641.8
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Filosofía",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 643.7
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Física y Ciencias Naturales",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 566.6
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Historia, Geografía y Ciencias Sociales",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 526.85
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 612.6
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Matemáticas",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 551.25
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Música",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 661.05
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Pedagogía en Química y Ciencias Naturales",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 560.90
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Periodismo",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 621.10
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Psicología",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 784.35
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Tecnología Médica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 706.70
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Desarrollo de Videojuegos y Simulación Virtual",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 480.30
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 695.85
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Educación Parvularia",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 638.60
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Interpretación o Traducción (Inglés-Español)",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 620.60
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Licenciatura en Física o Licenciatura en Física con Mención en Astronomía",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 624.80
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Licenciatura en Lingüística y Literatura",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 619.80
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Licenciatura en Matemáticas",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 525.60
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Publicidad",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 487.80
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Química Industrial",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 642.50
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Licenciatura en Ciencias y Artes Musicales o Licenciatura en Música con Mención en Composición",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 608.80
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Valparaíso",
+    "carrera": "Trabajo Social",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 598.80
+  }
 ]
