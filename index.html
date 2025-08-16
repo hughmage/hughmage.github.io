@@ -85,6 +85,7 @@
     box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
   }
 
+  /* --- ESTILOS PARA VALIDACIÓN (ROJO/VERDE) --- */
   input.valid {
     border-color: var(--success);
     background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2327ae60' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");
@@ -291,49 +292,49 @@
         <div class="input-item">
           <div class="score-input-group">
             <label for="p-nem">Puntaje NEM</label>
-            <input type="number" id="p-nem" placeholder="100-1000" min="100" max="1000">
+            <input type="number" id="p-nem" placeholder="100-1000">
           </div>
           <div class="ponderacion-info" id="w-nem"></div>
         </div>
         <div class="input-item">
           <div class="score-input-group">
             <label for="p-ranking">Ranking</label>
-            <input type="number" id="p-ranking" placeholder="100-1000" min="100" max="1000">
+            <input type="number" id="p-ranking" placeholder="100-1000">
           </div>
           <div class="ponderacion-info" id="w-ranking"></div>
         </div>
         <div class="input-item">
           <div class="score-input-group">
             <label for="p-lectora">C. Lectora</label>
-            <input type="number" id="p-lectora" placeholder="100-1000" min="100" max="1000">
+            <input type="number" id="p-lectora" placeholder="100-1000">
           </div>
           <div class="ponderacion-info" id="w-lectora"></div>
         </div>
         <div class="input-item">
           <div class="score-input-group">
             <label for="p-m1">Matemática M1</label>
-            <input type="number" id="p-m1" placeholder="100-1000" min="100" max="1000">
+            <input type="number" id="p-m1" placeholder="100-1000">
           </div>
           <div class="ponderacion-info" id="w-m1"></div>
         </div>
         <div class="input-item">
           <div class="score-input-group">
             <label for="p-m2">Matemática M2</label>
-            <input type="number" id="p-m2" placeholder="100-1000" min="100" max="1000">
+            <input type="number" id="p-m2" placeholder="100-1000">
           </div>
           <div class="ponderacion-info" id="w-m2"></div>
         </div>
         <div class="input-item">
           <div class="score-input-group">
             <label for="p-ciencias">Ciencias</label>
-            <input type="number" id="p-ciencias" placeholder="100-1000" min="100" max="1000">
+            <input type="number" id="p-ciencias" placeholder="100-1000">
           </div>
           <div class="ponderacion-info" id="w-ciencias"></div>
         </div>
          <div class="input-item">
           <div class="score-input-group">
             <label for="p-historia">Historia</label>
-            <input type="number" id="p-historia" placeholder="100-1000" min="100" max="1000">
+            <input type="number" id="p-historia" placeholder="100-1000">
           </div>
           <div class="ponderacion-info" id="w-historia"></div>
         </div>
@@ -375,22 +376,29 @@ let carrerasData = [];
 // --- CORE FUNCTIONS ---
 async function fetchData() {
   try {
-    const [nemResponse, carrerasResponse] = await Promise.all([
-      fetch('tabla_NEM_completa.json'),
+    // Usamos el JSON solo con la PUC por ahora
+    const [carrerasResponse] = await Promise.all([
       fetch('carreras.json')
     ]);
-    if (!nemResponse.ok) throw new Error('Error al cargar tablas NEM');
     if (!carrerasResponse.ok) throw new Error('Error al cargar datos de carreras');
     
-    tablasNEM = await nemResponse.json();
     carrerasData = await carrerasResponse.json();
+    console.log('Datos de Carreras cargados correctamente');
+    
+    // Carga de NEM sigue siendo opcional para esta pestaña
+    try {
+        const nemResponse = await fetch('tabla_NEM_completa.json');
+        if (nemResponse.ok) {
+            tablasNEM = await nemResponse.json();
+            console.log('Datos de NEM cargados correctamente');
+        }
+    } catch (e) {
+        console.warn("No se pudo cargar el archivo de NEM, la calculadora NEM no funcionará.");
+    }
 
-    console.log('Datos de NEM y Carreras cargados correctamente');
     return true;
   } catch (error) {
     console.error('Error cargando datos:', error);
-    // Fallback básico en caso de error
-    tablasNEM = { "A": {"4.00": 100, "7.00": 1000}, "B": {"4.00": 100, "7.00": 1000}, "C": {"4.00": 100, "7.00": 1000} };
     carrerasData = [];
     return false;
   }
@@ -488,6 +496,24 @@ function limpiarFormularioNEM() {
 }
 
 // --- PAES SIMULATOR LOGIC ---
+
+// --- NUEVA FUNCIÓN PARA VALIDAR PUNTAJES PAES ---
+function validarPuntajePAES(inputId) {
+    const input = document.getElementById(inputId);
+    const value = parseFloat(input.value);
+
+    input.classList.remove('valid', 'invalid');
+
+    if (input.value === '') return; // No validar si está vacío
+
+    if (!isNaN(value) && value >= 100 && value <= 1000) {
+        input.classList.add('valid');
+    } else {
+        input.classList.add('invalid');
+    }
+}
+
+
 function setupSimulator() {
     const uniSelect = document.getElementById('universidad');
     const carreraSelect = document.getElementById('carrera');
@@ -513,23 +539,23 @@ function setupSimulator() {
             .filter(c => c.universidad === selectedUni)
             .sort((a, b) => a.carrera.localeCompare(b.carrera));
         
-        carreras.forEach((carrera, index) => {
+        carreras.forEach((carrera) => {
             const option = document.createElement('option');
-            option.value = index; // Use index to easily find it back in the filtered array
-            option.textContent = `${carrera.carrera} (${carrera.sede})`;
-            option.dataset.originalIndex = carrerasData.indexOf(carrera);
+            // Guardamos el índice original para encontrar la carrera fácilmente
+            option.value = carrerasData.indexOf(carrera); 
+            option.textContent = `${carrera.carrera}${carrera.sede ? ` (${carrera.sede})` : ''}`;
             carreraSelect.appendChild(option);
         });
         carreraSelect.disabled = false;
     });
 
     carreraSelect.addEventListener('change', () => {
-        const originalIndex = carreraSelect.options[carreraSelect.selectedIndex]?.dataset.originalIndex;
-        if (originalIndex === undefined) {
+        const index = carreraSelect.value;
+        if (index === "") {
             resetPonderaciones();
             return;
         }
-        const carrera = carrerasData[originalIndex];
+        const carrera = carrerasData[index];
         displayPonderaciones(carrera.ponderaciones);
     });
 }
@@ -559,13 +585,13 @@ function simularPuntaje() {
     setTimeout(() => {
         try {
             const carreraSelect = document.getElementById('carrera');
-            const originalIndex = carreraSelect.options[carreraSelect.selectedIndex]?.dataset.originalIndex;
-            if (originalIndex === undefined) {
+            const index = carreraSelect.value;
+            if (index === "") {
                 alert("Por favor, selecciona una universidad y una carrera.");
                 return;
             }
 
-            const carrera = carrerasData[originalIndex];
+            const carrera = carrerasData[index];
             const p = carrera.ponderaciones;
 
             const scores = {
@@ -577,14 +603,27 @@ function simularPuntaje() {
                 ciencias: parseFloat(document.getElementById('p-ciencias').value) || 0,
                 historia: parseFloat(document.getElementById('p-historia').value) || 0
             };
+            
+            // --- LÓGICA MEJORADA DE CÁLCULO ---
+            let puntajePonderado = 0;
+            puntajePonderado += (scores.nem * p.NEM / 100);
+            puntajePonderado += (scores.ranking * p.Ranking / 100);
+            puntajePonderado += (scores.lectora * p.Lectora / 100);
+            puntajePonderado += (scores.m1 * p.M1 / 100);
+            puntajePonderado += (scores.m2 * p.M2 / 100);
 
-            const puntajePonderado = (scores.nem * p.NEM / 100) +
-                                   (scores.ranking * p.Ranking / 100) +
-                                   (scores.lectora * p.Lectora / 100) +
-                                   (scores.m1 * p.M1 / 100) +
-                                   (scores.m2 * p.M2 / 100) +
-                                   (scores.ciencias * p.Ciencias / 100) +
-                                   (scores.historia * p.Historia / 100);
+            // Lógica para la prueba electiva (Ciencias o Historia)
+            if (p.Ciencias > 0 && p.Historia > 0) {
+                // Si ambas ponderan, es una electiva. Usar el puntaje más alto.
+                const puntajeElectiva = Math.max(scores.ciencias, scores.historia);
+                // Usamos la ponderación de Ciencias (o Historia, deberían ser iguales)
+                puntajePonderado += (puntajeElectiva * p.Ciencias / 100);
+            } else {
+                // Si no, se suman de forma independiente (una será 0%)
+                puntajePonderado += (scores.ciencias * p.Ciencias / 100);
+                puntajePonderado += (scores.historia * p.Historia / 100);
+            }
+
 
             const corte = carrera.corte_2025;
             const diferencia = puntajePonderado - corte;
@@ -648,6 +687,14 @@ document.addEventListener('DOMContentLoaded', async function() {
   document.getElementById('grupo').addEventListener('change', function() {
     if (this.value) mostrarError('grupo-error', false);
   });
+  
+  // --- AÑADIR EVENT LISTENERS PARA LA VALIDACIÓN EN TIEMPO REAL ---
+  const puntajeInputs = ['p-nem', 'p-ranking', 'p-lectora', 'p-m1', 'p-m2', 'p-ciencias', 'p-historia'];
+  puntajeInputs.forEach(inputId => {
+    const inputElement = document.getElementById(inputId);
+    inputElement.addEventListener('input', () => validarPuntajePAES(inputId));
+  });
+
 });
 </script>
 
