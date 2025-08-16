@@ -28,9 +28,10 @@
     --subtitle-text: var(--gray);
     --label-text: var(--dark);
     --puntaje-box-bg: #27ae60;
-    --promedio-box-bg: #2980b9;
-    --corte-box-bg: #ecf0f1;
-    --corte-text-color: #2c3e50;
+    --promedio-box-bg: #ecf0f1; /* Color original de corte-info */
+    --corte-box-bg: #2980b9; /* Color original de promedio-box */
+    --corte-text-color: white;
+    --promedio-text-color: #2c3e50;
     --box-text-color: white;
     --warning-bg: #fffbe6;
   }
@@ -46,9 +47,10 @@
     --label-text: #ecf0f1;
     --light: #2c3e50;
     --puntaje-box-bg: #2ecc71;
-    --promedio-box-bg: #3498db;
-    --corte-box-bg: #34495e;
-    --corte-text-color: #ecf0f1;
+    --promedio-box-bg: #34495e; /* Color original de corte-info */
+    --corte-box-bg: #3498db;   /* Color original de promedio-box */
+    --corte-text-color: white;
+    --promedio-text-color: #ecf0f1;
     --box-text-color: white;
     --warning-bg: #4d442a;
   }
@@ -111,7 +113,7 @@
   }
   
   .isologo {
-    max-width: 420px; /* TAMAÑO AUMENTADO PARA ESCRITORIO */
+    max-width: 420px;
     height: auto;
     margin: 0 auto 10px;
   }
@@ -192,7 +194,7 @@
   .notas-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .nota-item { display: flex; justify-content: space-between; }
   
-  .promedio-box { background-color: var(--promedio-box-bg); color: var(--box-text-color); padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; transition: background-color 0.3s ease; }
+  .promedio-box { background-color: var(--promedio-box-bg); color: var(--promedio-text-color); padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; transition: background-color 0.3s ease; }
   .puntaje-box { background-color: var(--puntaje-box-bg); color: var(--box-text-color); padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; font-size: 1.2rem; font-weight: 600; transition: background-color 0.3s ease; }
   .corte-info { background-color: var(--corte-box-bg); color: var(--corte-text-color); padding: 10px; border-radius: 8px; text-align: center; transition: background-color 0.3s ease, color 0.3s ease; margin-bottom: 15px; }
 
@@ -230,8 +232,9 @@
   #resultado-simulador .result-value { font-size: 1.4rem; }
   
   #resultado-simulador .diferencia { font-weight: 600; }
-  .diferencia.positiva { color: var(--success); }
-  .diferencia.negativa { color: var(--danger); }
+  .promedio-box .result-item span:first-child { color: inherit; } /* Hereda el color del texto del padre */
+  .diferencia.positiva { color: #27ae60; }
+  .diferencia.negativa { color: #e74c3c; }
 
   .info-section {
     margin-top: 40px;
@@ -366,7 +369,7 @@
     .score-input-group { flex-wrap: wrap; }
     .score-input-group input { flex-grow: 1; }
     .isologo { max-width: 250px; }
-    .theme-toggle-btn { top: 70px; } /* Botón más abajo en móvil para no tapar el isologo */
+    .theme-toggle-btn { top: 70px; }
   }
 </style>
 </head>
