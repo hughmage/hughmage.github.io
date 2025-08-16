@@ -85,7 +85,6 @@
     box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
   }
 
-  /* --- ESTILOS PARA VALIDACIÓN (ROJO/VERDE) --- */
   input.valid {
     border-color: var(--success);
     background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2327ae60' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");
@@ -144,7 +143,6 @@
   .puntaje-box { background-color: var(--success); color: white; padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; font-size: 1.2rem; font-weight: 600; animation: fadeIn 0.6s ease; }
   .error-message { color: var(--danger); font-size: 0.9rem; margin-top: 5px; display: none; animation: fadeIn 0.3s ease; }
   .info-box { background-color: var(--light); padding: 15px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; border-left: 4px solid var(--primary); animation: fadeIn 0.4s ease; }
-  .section { margin: 30px 0; animation: fadeIn 0.5s ease; }
   .section-title { color: var(--primary); margin-bottom: 15px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
   
   .spinner {
@@ -162,33 +160,21 @@
   @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
   @keyframes slideIn { from { opacity: 0; transform: translateX(-20px); } to { opacity: 1; transform: translateX(0); } }
 
-  /* Tab Styles */
   .main-tab-buttons { display: flex; border-bottom: 2px solid var(--border); margin-bottom: 25px; }
   .main-tab-button {
-    flex: 1;
-    padding: 15px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: var(--gray);
-    border-bottom: 4px solid transparent;
-    transition: all 0.3s ease;
-    margin: 0;
-    width: auto;
+    flex: 1; padding: 15px; background: none; border: none; cursor: pointer;
+    font-weight: 600; font-size: 1.1rem; color: var(--gray);
+    border-bottom: 4px solid transparent; transition: all 0.3s ease;
+    margin: 0; width: auto;
   }
   .main-tab-button.active { color: var(--primary); border-bottom-color: var(--primary); }
   .main-tab-content { display: none; }
   .main-tab-content.active { display: block; animation: fadeIn 0.6s ease; }
 
-  /* Simulador Styles */
   .ponderacion-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 20px; }
   .score-input-group { display: flex; align-items: center; gap: 10px; }
-  
   .score-input-group label { margin-bottom: 0; flex: 1; }
   .score-input-group input { flex: 0 0 120px; }
-  
   .ponderacion-info { font-size: 0.8rem; color: var(--gray); text-align: right; margin-top: 4px; height: 1em; }
   #resultado-simulador .result-value { font-size: 1.4rem; }
   #resultado-simulador .corte-info { font-size: 1rem; text-align: center; margin: 15px 0; }
@@ -196,18 +182,68 @@
   .diferencia.positiva { color: var(--success); }
   .diferencia.negativa { color: var(--danger); }
 
+  .info-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+  .info-section h2 {
+    color: var(--primary);
+    margin-bottom: 20px;
+  }
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  .faq-item h3 {
+    font-weight: 500;
+    color: var(--dark);
+  }
+  .faq-item p {
+    margin-top: 5px;
+    padding-left: 10px;
+    border-left: 2px solid var(--primary-light);
+  }
+  .useful-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  .useful-link {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--light);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+  .useful-link:hover {
+    background-color: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .useful-link svg {
+    margin-left: auto;
+    stroke: currentColor;
+  }
+  .about-section {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--light);
+    border-radius: 8px;
+    font-style: italic;
+    color: var(--gray);
+  }
 
   @media (max-width: 480px) {
     .container { margin: 15px; padding: 15px; }
     .input-group, .ponderacion-grid { flex-direction: column; gap: 15px; }
-    
-    /* --- CAMBIO REALIZADO AQUÍ PARA ARREGLAR DESBORDE --- */
-    .score-input-group {
-      flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben */
-    }
-    .score-input-group input {
-      flex-grow: 1; /* Permite que el input crezca para ocupar el espacio */
-    }
+    .score-input-group { flex-wrap: wrap; }
+    .score-input-group input { flex-grow: 1; }
   }
 </style>
 </head>
@@ -374,7 +410,64 @@
             </div>
         </div>
     </div>
+  </div>
 
+  <div class="info-section">
+    <h2>Preguntas Frecuentes</h2>
+    <div class="faq-item">
+      <h3>¿Qué es el NEM?</h3>
+      <p>El NEM (Notas de Enseñanza Media) es un factor de selección utilizado en el proceso de admisión a las universidades chilenas. Corresponde al promedio de tus notas de 1° a 4° medio, transformado a un puntaje estándar que va desde 100 hasta 1000 puntos.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cómo se calcula el puntaje NEM?</h3>
+      <p>El cálculo del puntaje NEM se realiza en 3 pasos: Se calcula el promedio simple de tus notas de 1° a 4° medio. Este promedio se redondea a 2 decimales. Según tu grupo de dependencia (A, B o C), se busca en la tabla de transformación del DEMRE el puntaje correspondiente a tu promedio.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Importancia del NEM</h3>
+      <p>El puntaje NEM es uno de los componentes principales del puntaje de selección a la universidad, junto con el puntaje de la PAES (Prueba de Acceso a la Educación Superior). Dependiendo de la carrera y universidad, el NEM puede representar entre el 10% y el 40% de tu puntaje final.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Qué grupo de dependencia debo seleccionar?</h3>
+      <p>Debes seleccionar según el tipo de establecimiento donde cursaste tu enseñanza media: Grupo A: Enseñanza Media Humanístico-Científica regular (colegios científicos-humanistas diurnos). Grupo B: Enseñanza Media Humanístico-Científica de adultos (colegios nocturnos o de adultos). Grupo C: Enseñanza Media Técnico-Profesional (liceos técnicos).</p>
+    </div>
+    <div class="faq-item">
+        <h3>¿Qué pasa si repetí un año?</h3>
+        <p>Para el cálculo del NEM solo se consideran las notas del último año cursado en cada nivel. Si repetiste 2° medio, por ejemplo, solo se considerarán las notas de la segunda vez que lo cursaste.</p>
+    </div>
+    <div class="faq-item">
+        <h3>¿Cómo afecta el NEM a mi postulación?</h3>
+        <p>El NEM es uno de los componentes de tu puntaje ponderado. Cada universidad y carrera asigna un porcentaje distinto al NEM en su ponderación, por lo que su importancia varía según tu elección de carrera.</p>
+    </div>
+    <div class="faq-item">
+        <h3>¿Puedo mejorar mi puntaje NEM?</h3>
+        <p>El NEM se calcula con tus notas definitivas de enseñanza media, por lo que una vez egresado no puedes modificarlo. Sin embargo, si realizas un nuevo proceso de admisión después de algunos años, algunas universidades permiten usar un NEM recalculado.</p>
+    </div>
+  </div>
+
+  <div class="info-section">
+    <h2>Enlaces Útiles</h2>
+    <div class="useful-links-grid">
+      <a href="https://certificados.mineduc.cl/certificados-web/mvc/home/index?landingHome=estudios" target="_blank" class="useful-link">
+        Calcula tu NEM Aquí
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      </a>
+      <a href="https://mifuturo.cl/buscador-de-empleabilidad-e-ingresos/" target="_blank" class="useful-link">
+        Datos de empleabilidad e ingresos
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      </a>
+      <a href="https://demre.cl/paes/factores-seleccion/tabla-transformacion-nem" target="_blank" class="useful-link">
+        Tablas Oficiales de Transformación NEM
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      </a>
+      <a href="https://demre.cl" target="_blank" class="useful-link">
+        Sitio Oficial DEMRE
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="about-section">
+    Página creada con ayuda de IAs, por Hugh - Renato y Cinthia.
   </div>
 </div>
 
@@ -386,7 +479,6 @@ let carrerasData = [];
 // --- CORE FUNCTIONS ---
 async function fetchData() {
   try {
-    // Usamos el JSON solo con la PUC por ahora
     const [carrerasResponse] = await Promise.all([
       fetch('carreras.json')
     ]);
@@ -395,7 +487,6 @@ async function fetchData() {
     carrerasData = await carrerasResponse.json();
     console.log('Datos de Carreras cargados correctamente');
     
-    // Carga de NEM sigue siendo opcional para esta pestaña
     try {
         const nemResponse = await fetch('tabla_NEM_completa.json');
         if (nemResponse.ok) {
@@ -506,15 +597,13 @@ function limpiarFormularioNEM() {
 }
 
 // --- PAES SIMULATOR LOGIC ---
-
-// --- FUNCIÓN PARA VALIDAR PUNTAJES PAES ---
 function validarPuntajePAES(inputId) {
     const input = document.getElementById(inputId);
     const value = parseFloat(input.value);
 
     input.classList.remove('valid', 'invalid');
 
-    if (input.value === '') return; // No validar si está vacío
+    if (input.value === '') return;
 
     if (!isNaN(value) && value >= 100 && value <= 1000) {
         input.classList.add('valid');
@@ -522,7 +611,6 @@ function validarPuntajePAES(inputId) {
         input.classList.add('invalid');
     }
 }
-
 
 function setupSimulator() {
     const uniSelect = document.getElementById('universidad');
@@ -551,7 +639,6 @@ function setupSimulator() {
         
         carreras.forEach((carrera) => {
             const option = document.createElement('option');
-            // Guardamos el índice original para encontrar la carrera fácilmente
             option.value = carrerasData.indexOf(carrera); 
             option.textContent = `${carrera.carrera}${carrera.sede ? ` (${carrera.sede})` : ''}`;
             carreraSelect.appendChild(option);
@@ -614,7 +701,6 @@ function simularPuntaje() {
                 historia: parseFloat(document.getElementById('p-historia').value) || 0
             };
             
-            // --- LÓGICA MEJORADA DE CÁLCULO ---
             let puntajePonderado = 0;
             puntajePonderado += (scores.nem * p.NEM / 100);
             puntajePonderado += (scores.ranking * p.Ranking / 100);
@@ -622,18 +708,13 @@ function simularPuntaje() {
             puntajePonderado += (scores.m1 * p.M1 / 100);
             puntajePonderado += (scores.m2 * p.M2 / 100);
 
-            // Lógica para la prueba electiva (Ciencias o Historia)
             if (p.Ciencias > 0 && p.Historia > 0) {
-                // Si ambas ponderan, es una electiva. Usar el puntaje más alto.
                 const puntajeElectiva = Math.max(scores.ciencias, scores.historia);
-                // Usamos la ponderación de Ciencias (o Historia, deberían ser iguales)
                 puntajePonderado += (puntajeElectiva * p.Ciencias / 100);
             } else {
-                // Si no, se suman de forma independiente (una será 0%)
                 puntajePonderado += (scores.ciencias * p.Ciencias / 100);
                 puntajePonderado += (scores.historia * p.Historia / 100);
             }
-
 
             const corte = carrera.corte_2025;
             const diferencia = puntajePonderado - corte;
@@ -654,7 +735,6 @@ function simularPuntaje() {
         }
     }, 100);
 }
-
 
 // --- TAB SWITCHING LOGIC ---
 function setupMainTabs() {
@@ -698,20 +778,16 @@ document.addEventListener('DOMContentLoaded', async function() {
     if (this.value) mostrarError('grupo-error', false);
   });
   
-  // --- EVENT LISTENERS PARA VALIDACIÓN Y 'ENTER' EN SIMULADOR ---
   const puntajeInputs = ['p-nem', 'p-ranking', 'p-lectora', 'p-m1', 'p-m2', 'p-ciencias', 'p-historia'];
   puntajeInputs.forEach(inputId => {
     const inputElement = document.getElementById(inputId);
-    // Añade validación visual en tiempo real
     inputElement.addEventListener('input', () => validarPuntajePAES(inputId));
-    // Añade la simulación al presionar Enter
     inputElement.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') {
         simularPuntaje();
       }
     });
   });
-
 });
 </script>
 
