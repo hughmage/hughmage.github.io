@@ -1,3 +1,12 @@
+¡Tienes toda la razón\! Pido disculpas por eso. La solución anterior le dio un tamaño fijo al recuadro del puntaje, lo que funciona bien en pantallas grandes, pero como viste, causa que se desborde en las más pequeñas.
+
+Para corregirlo, he ajustado el código para que sea más "inteligente". Ahora, si el espacio es muy reducido (como en tu celular), los elementos se reordenarán automáticamente para evitar que se salgan del margen. Esto se logra permitiendo que la línea se "envuelva" (wrap) si no cabe todo el contenido.
+
+Aquí está el código corregido. He modificado la sección `@media (max-width: 480px)` dentro de los estilos para añadir este comportamiento adaptable.
+
+### HTML con la Corrección Final
+
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -186,9 +195,8 @@
   .ponderacion-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 20px; }
   .score-input-group { display: flex; align-items: center; gap: 10px; }
   
-  /* --- CAMBIO REALIZADO AQUÍ --- */
-  .score-input-group label { margin-bottom: 0; flex: 1; } /* La etiqueta toma el espacio sobrante */
-  .score-input-group input { flex: 0 0 120px; } /* El campo de puntaje tiene un ancho fijo de 120px */
+  .score-input-group label { margin-bottom: 0; flex: 1; }
+  .score-input-group input { flex: 0 0 120px; }
   
   .ponderacion-info { font-size: 0.8rem; color: var(--gray); text-align: right; margin-top: 4px; height: 1em; }
   #resultado-simulador .result-value { font-size: 1.4rem; }
@@ -201,6 +209,14 @@
   @media (max-width: 480px) {
     .container { margin: 15px; padding: 15px; }
     .input-group, .ponderacion-grid { flex-direction: column; gap: 15px; }
+    
+    /* --- CAMBIO REALIZADO AQUÍ PARA ARREGLAR DESBORDE --- */
+    .score-input-group {
+      flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben */
+    }
+    .score-input-group input {
+      flex-grow: 1; /* Permite que el input crezca para ocupar el espacio */
+    }
   }
 </style>
 </head>
@@ -710,3 +726,4 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 </body>
 </html>
+```
