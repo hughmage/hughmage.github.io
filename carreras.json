@@ -6028,5 +6028,695 @@
       "Ciencias": 0
     },
     "corte_2025": 541.25
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Analista Químico",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 35,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 690.10
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Arquitectura",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 617.60
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Biología Marina",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 649.00
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Contador Auditor - Contador Público (Diurno)",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 45,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 584.25
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Derecho",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 687.80
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Derecho",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 751.70
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Enfermería",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 800.20
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 545.50
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil Ambiental",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 508.50
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil de Minas",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 692.20
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil Electrónica",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 585.35
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil en Computación e Informática",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 583.70
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil en Construcción",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 556.30
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil en Energía",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 525.10
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 742.40
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 750.90
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil Metalúrgica",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 594.85
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil Plan Común",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 561.05
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Civil Química",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 683.20
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería en Acuicultura",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 568.70
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería en Computación e Informática",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 500.40
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 45,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 507.20
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería en Información y Control de Gestión",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 45,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 599.00
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería en Información y Control de Gestión",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 45,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 629.60
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería en Metalurgia",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 538.40
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería en Prevención de Riesgos y Medio Ambiente",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 577.85
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería en Tecnologías de Información",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 506.35
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Kinesiología",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 701.80
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Medicina",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 893.85
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 686.85
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Pedagogía en Educación Básica con Especialización",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 552.30
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Pedagogía en Educación Diferencial con Mención",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 638.15
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Pedagogía en Educación Diferencial con Mención",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 536.15
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Pedagogía en Educación Parvularia con Mención",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 577.90
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Pedagogía en Filosofía y Religión",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 513.70
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 479.80
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Pedagogía en Matemática en Educación Media",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 534.15
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Periodismo",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 45,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 556.70
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Psicología",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 744.75
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Química y Farmacia",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 696.90
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 45,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 645.60
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Coquimbo",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 667.45
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Geología",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 653.20
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Licenciatura en Física con Mención en Astronomía",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 35,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 513.80
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Licenciatura en Matemática",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 710.00
+  },
+  {
+    "universidad": "Universidad Católica del Norte",
+    "carrera": "Química Industrial",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 605.75
   }
 ]
