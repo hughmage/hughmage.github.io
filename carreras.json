@@ -4753,5 +4753,485 @@
       "Ciencias": 10
     },
     "corte_2025": 571.50
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Dirección Audiovisual y Multimedia",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 600.10
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Educación de Párvulos",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 611.25
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Derecho",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 747.95
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Enfermería",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 786.90
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Ingeniería Civil",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 607.85
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Ingeniería Civil Eléctrica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 642.30
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Arquitectura",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 682.20
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Biología Marina",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 633.10
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Contador Auditor",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 579.20
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Ingeniería Civil Geológica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 460.85
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 714.90
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 665.55
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Ingeniería en Información y Control de Gestión",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 587.00
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Licenciatura en Filosofía",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 494.80
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Licenciatura en Historia",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 442.35
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Medicina",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 895.00
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 35,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 645.60
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Kinesiología",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 724.85
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Odontología",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 761.65
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Pedagogía en Educación Básica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 582.70
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Pedagogía en Educación Diferencial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 607.95
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 634.70
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Pedagogía en Educación Media en Lenguaje y Comunicación",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 490.30
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Pedagogía en Educación Media en Inglés",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 583.00
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Pedagogía en Educación Media en Matemática",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 507.50
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Periodismo",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 535.30
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Psicología",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 35,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 779.15
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Pedagogía en Educación Media - Biología y Ciencias Naturales",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 471.00
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Tecnología Médica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 774.80
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 641.80
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Química Ambiental",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 473.55
+  },
+  {
+    "universidad": "Universidad Católica de la Santísima Concepción",
+    "carrera": "Trabajo Social",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 531.25
   }
 ]
