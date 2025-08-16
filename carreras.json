@@ -1798,5 +1798,305 @@
       "Ciencias": 10
     },
     "corte_2025": 598.80
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Bachillerato de Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 740.20
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Doble Grado Derecho - Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 830.90
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Doble Grado Derecho - Ingeniería Comercial",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 788.95
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Doble Título Ingeniería Comercial - Sociología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 761.30
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "International Management",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 833.40
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Bachillerato de Ingeniería Civil",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 739.10
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Comunic Estratégica - Periodismo, Doble Título",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 682.40
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Comunic Estratégica - Periodismo, Doble Título",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 626.40
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 750.20
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Derecho",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 713.40
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 777.00
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 700.10
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Ing Civil (Plan Común) - 4 Carreras o Especialidades",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 675.45
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Ing Civil (Plan Común) - 4 Carreras o Especialidades",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 790.15
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 775.10
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Ingeniería en Computer Science",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 732.25
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Ingeniería en Negocios y Tecnología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 793.50
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Ingeniería en Negocios y Tecnología",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 677.05
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 742.45
+  },
+  {
+    "universidad": "Universidad Adolfo Ibáñez",
+    "carrera": "Psicología",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 703.05
   }
 ]
