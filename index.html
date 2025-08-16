@@ -185,8 +185,11 @@
   /* Simulador Styles */
   .ponderacion-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 20px; }
   .score-input-group { display: flex; align-items: center; gap: 10px; }
-  .score-input-group label { margin-bottom: 0; flex-basis: 40%; }
-  .score-input-group input { flex-basis: 60%; }
+  
+  /* --- CAMBIO REALIZADO AQUÍ --- */
+  .score-input-group label { margin-bottom: 0; flex: 1; } /* La etiqueta toma el espacio sobrante */
+  .score-input-group input { flex: 0 0 120px; } /* El campo de puntaje tiene un ancho fijo de 120px */
+  
   .ponderacion-info { font-size: 0.8rem; color: var(--gray); text-align: right; margin-top: 4px; height: 1em; }
   #resultado-simulador .result-value { font-size: 1.4rem; }
   #resultado-simulador .corte-info { font-size: 1rem; text-align: center; margin: 15px 0; }
