@@ -3478,5 +3478,1280 @@
       "Ciencias": 10
     },
     "corte_2025": 577.70
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Publicidad y Comunicación Integral",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 588.50
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 585.70
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 555.10
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 596.10
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Administración Pública",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 564.30
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Administración Pública",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 486.90
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Administración Pública",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 538.90
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Arquitectura",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 587.55
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Arquitectura",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 630.45
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Derecho",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 621.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Derecho",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 511.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Derecho",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 620.10
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Derecho",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 601.50
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Enfermería",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 684.60
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Enfermería",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 644.15
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Enfermería",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 65455.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Enfermería",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 6671.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Fonoaudiología",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 5625.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Fonoaudiología",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 4366.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Fonoaudiología",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 5916.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Fonoaudiología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 5717.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 65405.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 61865.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 6475.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 6453.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 57055.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 6196.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Civil Química",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 6449.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería en Administración",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 5799.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 46115.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 462.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 460.15
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería en Control de Gestión",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 618.40
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería en Control de Gestión",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 534.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería en Control de Gestión",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 585.50
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Kinesiología",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 646.90
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Kinesiología",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 611.80
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Kinesiología",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 629.70
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Kinesiología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 641.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Medicina",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 895.40
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Medicina",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 878.50
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Medicina",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 872.05
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 574.80
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 500.60
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 556.10
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 735.30
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 686.40
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Odontología",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 708.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Odontología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 686.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Básica",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 469.70
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Básica",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 493.15
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Básica",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 530.65
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Diferencial",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 551.60
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Diferencial",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 539.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 571.85
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 577.05
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 598.30
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Parvularia",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 544.55
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Parvularia",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 532.45
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Educación Parvularia",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 555.35
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Historia, Geografía y Ciencias Sociales",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 512.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 548.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 516.60
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 493.30
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Pedagogía en Lengua Castellana y Comunicación",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 553.10
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Periodismo",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 474.40
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Periodismo",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 513.80
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Periodismo",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 486.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Psicología",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 694.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Psicología",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 607.30
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Psicología",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 602.70
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Psicología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 594.20
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Psicopedagogía",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 472.25
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Química y Farmacia",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 762.10
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Química y Farmacia",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 707.85
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Química y Farmacia",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 739.85
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Santiago - Providencia",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 592.00
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 548.50
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 619.60
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 580.85
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Trabajo Social",
+    "sede": "Santiago - El Llano Subercaseaux",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 429.50
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Trabajo Social",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 497.30
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Trabajo Social",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 548.10
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Licenciatura en Artes Visuales",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 545.30
+  },
+  {
+    "universidad": "Universidad Autónoma de Chile",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 571.50
   }
 ]
