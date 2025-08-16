@@ -2,7 +2,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Arte",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 30,
@@ -17,7 +17,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Actuación",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 12,
       "Ranking": 12,
@@ -32,7 +32,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Administración Pública",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -47,7 +47,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Agronomía e Ingeniería Forestal",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 30,
@@ -62,7 +62,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Antropología - Arqueología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 25,
@@ -77,7 +77,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Arquitectura",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -92,7 +92,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Biología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 10,
@@ -107,7 +107,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Biología Marina",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -122,7 +122,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Bioquímica",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -137,7 +137,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Ciencia Política",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -152,7 +152,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Derecho",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -167,7 +167,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Diseño",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 25,
@@ -182,7 +182,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Enfermería",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 25,
@@ -197,7 +197,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Filosofía",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 25,
@@ -212,7 +212,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Fonoaudiología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 10,
@@ -227,7 +227,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Geografía",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -242,7 +242,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Historia",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -257,7 +257,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Ingeniería",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -272,7 +272,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Ingeniería en Recursos Naturales",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 15,
       "Ranking": 25,
@@ -287,7 +287,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Kinesiología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 25,
@@ -302,7 +302,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Licenciatura en Ingeniería en Ciencia de Datos",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -317,7 +317,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Licenciatura en Ingeniería en Ciencia de la Computación",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -332,7 +332,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Medicina",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -347,7 +347,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Medicina Veterinaria",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -362,7 +362,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Nutrición y Dietética",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 25,
@@ -377,7 +377,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Odontología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 25,
@@ -392,7 +392,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación Especial",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -407,7 +407,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación Física y Salud para Educación Básica y Media",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 30,
@@ -422,7 +422,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación General Básica",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 25,
@@ -437,7 +437,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación General Básica",
-    "sede": "VILLARRICA",
+    "sede": "Villarrica",
     "ponderaciones": {
       "NEM": 10,
       "Ranking": 40,
@@ -452,7 +452,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación Media en Ciencias Naturales y Biología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -467,7 +467,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación Media en Física",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -482,7 +482,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación Media en Matemática",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -497,7 +497,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación Media en Química",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -512,7 +512,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación Parvularia",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 25,
@@ -527,7 +527,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Educación Parvularia",
-    "sede": "VILLARRICA",
+    "sede": "Villarrica",
     "ponderaciones": {
       "NEM": 10,
       "Ranking": 40,
@@ -542,7 +542,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Pedagogía en Inglés para Educación Básica y Media",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -557,7 +557,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Periodismo - Dirección Audiovisual - Publicidad",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 15,
       "Ranking": 25,
@@ -572,7 +572,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Psicología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 25,
@@ -587,7 +587,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Química",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -602,7 +602,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Química y Farmacia",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -617,7 +617,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Sociología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 25,
@@ -632,7 +632,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Teología",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 25,
@@ -647,7 +647,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Astronomía",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -662,7 +662,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Ingeniería Comercial",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -677,7 +677,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "College Ciencias Naturales y Matemáticas",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -692,7 +692,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "College Ciencias Sociales",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -707,7 +707,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Construcción Civil",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 10,
@@ -722,7 +722,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "College Artes y Humanidades",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
@@ -737,7 +737,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Estadística",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 10,
@@ -752,7 +752,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Física",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 10,
@@ -767,7 +767,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Letras Hispánicas",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 25,
@@ -782,7 +782,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Letras Inglesas",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 25,
@@ -797,7 +797,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Licenciatura en Interpretación Musical",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 12,
       "Ranking": 12,
@@ -812,7 +812,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Licenciatura en Música",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 12,
       "Ranking": 12,
@@ -827,7 +827,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Matemática",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 10,
@@ -842,7 +842,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Trabajo Social",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 25,
       "Ranking": 15,
@@ -857,7 +857,7 @@
   {
     "universidad": "Pontificia Universidad Católica de Chile",
     "carrera": "Terapia Ocupacional",
-    "sede": "SANTIAGO",
+    "sede": "Santiago",
     "ponderaciones": {
       "NEM": 20,
       "Ranking": 20,
