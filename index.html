@@ -1,12 +1,3 @@
-¡Tienes toda la razón\! Pido disculpas por eso. La solución anterior le dio un tamaño fijo al recuadro del puntaje, lo que funciona bien en pantallas grandes, pero como viste, causa que se desborde en las más pequeñas.
-
-Para corregirlo, he ajustado el código para que sea más "inteligente". Ahora, si el espacio es muy reducido (como en tu celular), los elementos se reordenarán automáticamente para evitar que se salgan del margen. Esto se logra permitiendo que la línea se "envuelva" (wrap) si no cabe todo el contenido.
-
-Aquí está el código corregido. He modificado la sección `@media (max-width: 480px)` dentro de los estilos para añadir este comportamiento adaptable.
-
-### HTML con la Corrección Final
-
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -726,4 +717,3 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 </body>
 </html>
-```
