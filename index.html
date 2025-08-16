@@ -28,8 +28,8 @@
     --subtitle-text: var(--gray);
     --label-text: var(--dark);
     --puntaje-box-bg: #27ae60;
-    --promedio-box-bg: #ecf0f1; /* Color original de corte-info */
-    --corte-box-bg: #2980b9; /* Color original de promedio-box */
+    --promedio-box-bg: #ecf0f1;
+    --corte-box-bg: #2980b9;
     --corte-text-color: white;
     --promedio-text-color: #2c3e50;
     --box-text-color: white;
@@ -47,8 +47,8 @@
     --label-text: #ecf0f1;
     --light: #2c3e50;
     --puntaje-box-bg: #2ecc71;
-    --promedio-box-bg: #34495e; /* Color original de corte-info */
-    --corte-box-bg: #3498db;   /* Color original de promedio-box */
+    --promedio-box-bg: #34495e;
+    --corte-box-bg: #3498db;
     --corte-text-color: white;
     --promedio-text-color: #ecf0f1;
     --box-text-color: white;
@@ -232,7 +232,6 @@
   #resultado-simulador .result-value { font-size: 1.4rem; }
   
   #resultado-simulador .diferencia { font-weight: 600; }
-  .promedio-box .result-item span:first-child { color: inherit; } /* Hereda el color del texto del padre */
   .diferencia.positiva { color: #27ae60; }
   .diferencia.negativa { color: #e74c3c; }
 
@@ -369,7 +368,7 @@
     .score-input-group { flex-wrap: wrap; }
     .score-input-group input { flex-grow: 1; }
     .isologo { max-width: 250px; }
-    .theme-toggle-btn { top: 70px; }
+    .theme-toggle-btn { top: 90px; } /* Botón más abajo para no chocar con el subtítulo */
   }
 </style>
 </head>
