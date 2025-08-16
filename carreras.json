@@ -6718,5 +6718,590 @@
       "Ciencias": 10
     },
     "corte_2025": 605.75
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Artes Escénicas",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 438.70
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Bachillerato en Ciencias Sociales y Artes",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 388.00
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Administración Pública",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 547.50
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Bachillerato en Ciencias",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 503.90
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Bachillerato en Ciencias de la Salud",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 698.30
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Biología Marina",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 593.50
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Bioquímica",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 574.90
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Derecho",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 10
+    },
+    "corte_2025": 612.85
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Diseño Gráfico, Mención Diseño Estratégico",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 473.50
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Enfermería",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 734.70
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Fonoaudiología",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 630.30
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Ingeniería Civil Eléctrica",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 595.90
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Ingeniería Civil en Geomensura y Geomática",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 485.65
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Ingeniería Civil en Minas",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 614.80
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Ingeniería Civil en Procesos Mineros",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 475.10
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 637.45
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 530.90
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Ingeniería en Biotecnología",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 563.00
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Kinesiología",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 678.60
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Medicina",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 909.20
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 614.00
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 757.40
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Odontología",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 788.40
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Pedagogía en Biología y Ciencias Naturales",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 491.90
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Pedagogía en Educación Básica, Mención Lenguaje y Comunicación y Matemática",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 463.95
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 597.80
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Pedagogía en Educación Parvularia Mención Necesidades Educativas Especiales",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 491.90
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 463.95
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Pedagogía en Lenguaje y Comunicación",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 597.80
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Pedagogía en Matemática",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 582.40
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Psicología",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 446.80
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Química y Farmacia",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 508.90
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Tecnología Médica - Imagenología y Física Médica",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 714.90
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Tecnología Médica en Laboratorio Clínico, Hematología y Medicina Transfusional",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 708.50
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 689.10
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Licenciatura en Ciencias, Mención Física y Astronomía",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 728.00
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Música",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 656.10
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Trabajo Social",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 670.40
+  },
+  {
+    "universidad": "Universidad de Antofagasta",
+    "carrera": "Ingeniería Comercial Mención Negocios Mineros",
+    "sede": "Antofagasta",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 589.10
   }
 ]
