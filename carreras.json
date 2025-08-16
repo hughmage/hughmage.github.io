@@ -1,0 +1,752 @@
+[
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "ARTE",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 718.45
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "ACTUACION",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 12,
+      "Ranking": 12,
+      "Lectora": 16,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 792.18
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "ADMINISTRACION PUBLICA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 779.9
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "AGRONOMIA E INGENIERIA FORESTAL",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 723.2
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "ANTROPOLOGIA- ARQUEOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 780.55
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "ARQUITECTURA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 871.2
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "BIOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 789.65
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "BIOLOGIA MARINA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 783.35
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "BIOQUIMICA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 886.9
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "CIENCIA POLITICA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 837.3
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "DERECHO",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 869.35
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "DISEÑO",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 798.15
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "ENFERMERIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 840.25
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "FILOSOFIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 673.95
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "FONOAUDIOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 697.45
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "GEOGRAFIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 658.4
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "HISTORIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 35,
+      "Ciencias": 0
+    },
+    "corte_2025": 736.15
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "INGENIERIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 878.9
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "INGENIERIA EN RECURSOS NATURALES",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 677.25
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "KINESIOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 801.95
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "LICENCIATURA EN INGENIERIA EN CIENCIA DE DATOS",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 798.9
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "LIC EN INGENIERIA EN CIENCIA DE LA COMPUTACION",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 810.9
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "MEDICINA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 954.45
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "MEDICINA VETERINARIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 825.5
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "NUTRICION Y DIETETICA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 760.15
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "ODONTOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 865.4
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "PSICOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 880.9
+  },
+  {
+    "universidad": "Pontificia Universidad Católica de Chile",
+    "carrera": "QUIMICA Y FARMACIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 905.3
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "ACTUACION TEATRAL",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 653.8
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "ADMINISTRACION PUBLICA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 759.6
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "ANTROPOLOGIA - ARQUEOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 25
+    },
+    "corte_2025": 742.4
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "ARQUITECTURA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 746.8
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "BACHILLERATO",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 800.35
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "BIOLOGIA CON MENCION EN MEDIO AMBIENTE",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 706.35
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "BIOQUIMICA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 794.4
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "CIENCIA POLITICA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 770.6
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "CINE Y TELEVISION",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 30
+    },
+    "corte_2025": 724.6
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "CONTADOR AUDITOR",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 15,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 764.35
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "DANZA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 741
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "DERECHO",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 844.9
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "DISEÑO",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 727.85
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "ENFERMERIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 783.75
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "INGENIERIA Y CIENCIAS - PLAN COMUN",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 20,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 834.7
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "MEDICINA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 924.8
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "ODONTOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 782.8
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "PSICOLOGIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 862.95
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "QUIMICA Y FARMACIA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 801.6
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "TECNOLOGIA MEDICA",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 796.2
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "TERAPIA OCUPACIONAL",
+    "sede": "SANTIAGO",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 689.2
+  },
+  {
+    "universidad": "Universidad de Concepción",
+    "carrera": "MEDICINA",
+    "sede": "CONCEPCIÓN",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 948.35
+  }
+]
