@@ -7303,5 +7303,1220 @@
       "Ciencias": 10
     },
     "corte_2025": 589.10
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Construcción Civil",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 439.5
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Geología",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 539.3
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Derecho",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 593.1
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Enfermería",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 655.1
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Ingeniería Civil en Computación e Informática",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 492.85
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Ingeniería Civil en Metalurgia",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 605.7
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Ingeniería Civil en Minas",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 618.2
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 620.6
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Kinesiología",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 604
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Licenciatura en Educación y Pedagogía en Inglés",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 485
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Licenciatura en Educación y Pedagogía en Educación Física",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 561.2
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Licenciatura en Educación y Pedagogía en Educación Parvularia",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 524
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Licenciatura en Educación y Pedagogía en Educación General Básica",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 589.3
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Medicina",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 860.75
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 558.7
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 662.2
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Psicología",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 635.5
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 578.9
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Licenciatura en Traductología y Traductor e Intérprete Inglés-Español",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 425.1
+  },
+  {
+    "universidad": "Universidad de Atacama",
+    "carrera": "Trabajo Social",
+    "sede": "Copiapó",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 439.9
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Actuación Teatral",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 653.80
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Administración Pública",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 759.60
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Antropología - Arqueología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 25
+    },
+    "corte_2025": 742.40
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Arquitectura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 746.80
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Bachillerato",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 800.35
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Biología con Mención en Medio Ambiente",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 706.35
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Bioquímica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 794.40
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ciencia Política",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 770.60
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Cine y Televisión",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 30
+    },
+    "corte_2025": 724.60
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Contador Auditor",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 15,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 764.35
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Danza",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 741.00
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 844.90
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Diseño",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 727.85
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Diseño Teatral",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 616.50
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Enfermería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 783.75
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Estudios Internacionales",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 849.35
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Filosofía, Licenciatura en",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 464.05
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Fonoaudiología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 619.10
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Geografía",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 20
+    },
+    "corte_2025": 629.70
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Historia, Licenciatura en",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 35,
+      "Ciencias": 0
+    },
+    "corte_2025": 688.40
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería Agronómica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 637.50
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería en Alimentos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 632.80
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería en Biotecnología Molecular",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 831.45
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería en Información y Control de Gestión",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 15,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 777.65
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería en Recursos Hídricos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 508.45
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería en Recursos Naturales Renovables",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 538.55
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería en Sonido",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 789.90
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería Forestal",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 35,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 20
+    },
+    "corte_2025": 437.70
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería y Ciencias - Plan Común",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 20,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 834.65
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Kinesiología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 760.45
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Licenciatura en Ciencias con Mención en Biología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 694.75
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Licenciatura en Ciencias con Mención en Física",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 793.40
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Licenciatura en Ciencias con Mención en Matemáticas",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 20,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 610.70
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Licenciatura en Ciencias con Mención en Química",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 578.10
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Lingüística y Literatura con Mención",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 626.40
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Lingüística y Literatura Inglesas",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 0
+    },
+    "corte_2025": 542.25
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Medicina",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 924.80
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Medicina Veterinaria",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 766.20
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 693.20
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 778.90
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Odontología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 782.80
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Pedagogía en Educación Básica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 662.45
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Pedagogía en Educación Especial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 648.00
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 25
+    },
+    "corte_2025": 665.15
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Pedagogía en Educación Media en Biología y Química",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 508.60
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Pedagogía en Educación Media en Matemática y Física",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 637.40
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Pedagogía en Educación Parvularia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 669.00
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Periodismo",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 0
+    },
+    "corte_2025": 718.25
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 862.95
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Química y Farmacia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 801.60
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Sociología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 709.15
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Tecnología Médica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 35
+    },
+    "corte_2025": 796.20
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 689.20
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Artes Visuales, Licenciatura en Artes con Mención en",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 645.05
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 15,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 833.75
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Licenciado/a en Artes con Mención en Composición",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 637.60
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Química",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 726.70
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Química Ambiental",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 616.20
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Teoría de la Música",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 636.50
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Trabajo Social",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 680.55
+  },
+  {
+    "universidad": "Universidad de Chile",
+    "carrera": "Teoría e Historia del Arte, Licenciatura en Artes con Mención",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 540.55
   }
 ]
