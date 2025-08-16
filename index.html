@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Calculadora NEM y Simulador PAES</title>
+<link rel="icon" href="luci_logo.svg" type="image/svg+xml">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -26,8 +27,11 @@
     --header-text: var(--primary);
     --subtitle-text: var(--gray);
     --label-text: var(--dark);
-    --puntaje-box-bg: var(--success);
-    --promedio-box-bg: var(--primary);
+    /* INICIO: COLORES DE CONTRASTE MEJORADOS */
+    --puntaje-box-bg: #27ae60;
+    --promedio-box-bg: #2980b9;
+    --box-text-color: white;
+    /* FIN: COLORES DE CONTRASTE MEJORADOS */
   }
 
   body.dark-mode {
@@ -40,9 +44,11 @@
     --subtitle-text: #bdc3c7;
     --label-text: #ecf0f1;
     --light: #2c3e50;
-    /* Colores con mayor contraste para el modo noche */
+    /* INICIO: COLORES DE CONTRASTE MEJORADOS (MODO NOCHE) */
     --puntaje-box-bg: #2ecc71;
-    --promedio-box-bg: #5dade2;
+    --promedio-box-bg: #3498db;
+    --box-text-color: white;
+    /* FIN: COLORES DE CONTRASTE MEJORADOS (MODO NOCHE) */
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -102,7 +108,13 @@
     border-bottom: 1px solid var(--border);
   }
   
-  h1 { color: var(--header-text); font-weight: 600; margin-bottom: 10px; }
+  /* Estilo para el isologo */
+  .isologo {
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 10px;
+  }
+
   .subtitle { color: var(--subtitle-text); font-weight: 300; font-size: 1rem; }
   .form-group { margin-bottom: 20px; }
   label { display: block; margin-bottom: 8px; font-weight: 500; color: var(--label-text); }
@@ -179,8 +191,8 @@
   .notas-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .nota-item { display: flex; justify-content: space-between; }
   
-  .promedio-box { background-color: var(--promedio-box-bg); color: white; padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; transition: background-color 0.3s ease; }
-  .puntaje-box { background-color: var(--puntaje-box-bg); color: white; padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; font-size: 1.2rem; font-weight: 600; transition: background-color 0.3s ease; }
+  .promedio-box { background-color: var(--promedio-box-bg); color: var(--box-text-color); padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; transition: background-color 0.3s ease; }
+  .puntaje-box { background-color: var(--puntaje-box-bg); color: var(--box-text-color); padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; font-size: 1.2rem; font-weight: 600; transition: background-color 0.3s ease; }
   
   .error-message { color: var(--danger); font-size: 0.9rem; margin-top: 5px; display: none; }
   .info-box { background-color: var(--light); padding: 15px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; border-left: 4px solid var(--primary); }
@@ -354,7 +366,7 @@
   </button>
 
   <header>
-    <h1>Calculadora y Simulador PAES</h1>
+    <img src="luci.svg" alt="Isologo Luci" class="isologo">
     <p class="subtitle">Calcula tu NEM y simula tu puntaje ponderado para la carrera de tus sueños</p>
   </header>
 
