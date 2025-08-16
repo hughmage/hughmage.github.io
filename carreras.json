@@ -2098,5 +2098,455 @@
       "Ciencias": 10
     },
     "corte_2025": 714.55
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Educacion Parvularia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 442.85
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Gestion de Información, Bibliotecología y Archivística",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 555.00
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Licenciatura en Lengua y Literatura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 464.85
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 444.40
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Administración Pública",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 428.05
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Antropología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 441.65
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Arqueología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 567.85
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Bachillerato en Humanidades",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 463.20
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Ciencia Política y Relaciones Internacionales",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 578.90
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Contador Público Auditor",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 485.40
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 645.80
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Geografía",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 420.10
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Ingeniería Civil Plan Común",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 477.55
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Licenciatura en Filosofía",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 532.95
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Licenciatura en Historia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 541.45
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Artes Visuales",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 525.50
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Biología y Ciencias Naturales Educación Media",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 527.50
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Educación Basica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 419.35
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Educación Diferencial Mención Dificultades del Aprendizaje",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 445.30
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Filosofía",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 522.95
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Historia y Ciencias Sociales",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 424.40
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogia en Inglés",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 35,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 419.20
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Lengua Castellana y Comunicacion",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 454.65
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Matemática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 580.15
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Pedagogía en Música",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 412.15
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Periodismo",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 402.75
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 702.40
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Sociología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 515.30
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Licenciatura en Teoría e Historia del Arte",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 495.35
+  },
+  {
+    "universidad": "Universidad Alberto Hurtado",
+    "carrera": "Trabajo Social",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 476.10
   }
 ]
