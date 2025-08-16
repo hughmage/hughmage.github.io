@@ -29,8 +29,8 @@
     --label-text: var(--dark);
     --puntaje-box-bg: #27ae60;
     --promedio-box-bg: #2980b9;
-    --corte-box-bg: #ecf0f1; /* Fondo para puntaje de corte */
-    --corte-text-color: #2c3e50; /* Texto para puntaje de corte */
+    --corte-box-bg: #ecf0f1;
+    --corte-text-color: #2c3e50;
     --box-text-color: white;
     --warning-bg: #fffbe6;
   }
@@ -47,8 +47,8 @@
     --light: #2c3e50;
     --puntaje-box-bg: #2ecc71;
     --promedio-box-bg: #3498db;
-    --corte-box-bg: #34495e; /* Fondo para puntaje de corte (noche) */
-    --corte-text-color: #ecf0f1; /* Texto para puntaje de corte (noche) */
+    --corte-box-bg: #34495e;
+    --corte-text-color: #ecf0f1;
     --box-text-color: white;
     --warning-bg: #4d442a;
   }
@@ -111,7 +111,7 @@
   }
   
   .isologo {
-    max-width: 350px; /* Tamaño agrandado para escritorio */
+    max-width: 420px; /* TAMAÑO AUMENTADO PARA ESCRITORIO */
     height: auto;
     margin: 0 auto 10px;
   }
@@ -194,7 +194,7 @@
   
   .promedio-box { background-color: var(--promedio-box-bg); color: var(--box-text-color); padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; transition: background-color 0.3s ease; }
   .puntaje-box { background-color: var(--puntaje-box-bg); color: var(--box-text-color); padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center; font-size: 1.2rem; font-weight: 600; transition: background-color 0.3s ease; }
-  .corte-info { background-color: var(--corte-box-bg); color: var(--corte-text-color); padding: 10px; border-radius: 8px; text-align: center; transition: background-color 0.3s ease, color 0.3s ease; }
+  .corte-info { background-color: var(--corte-box-bg); color: var(--corte-text-color); padding: 10px; border-radius: 8px; text-align: center; transition: background-color 0.3s ease, color 0.3s ease; margin-bottom: 15px; }
 
   .error-message { color: var(--danger); font-size: 0.9rem; margin-top: 5px; display: none; }
   .info-box { background-color: var(--light); padding: 15px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; border-left: 4px solid var(--primary); }
@@ -366,7 +366,7 @@
     .score-input-group { flex-wrap: wrap; }
     .score-input-group input { flex-grow: 1; }
     .isologo { max-width: 250px; }
-    .theme-toggle-btn { top: 65px; } /* Ajuste para bajar el botón en móvil */
+    .theme-toggle-btn { top: 70px; } /* Botón más abajo en móvil para no tapar el isologo */
   }
 </style>
 </head>
@@ -389,13 +389,181 @@
   </div>
 
   <div class="main-tab-content" id="calculadora-nem">
+    <div class="info-box">
+      Esta calculadora te permite transformar tu promedio de notas de enseñanza media (NEM) al puntaje estándar utilizado en el proceso de admisión.
     </div>
+    <div class="form-group">
+      <label for="grupo">Grupo de dependencia</label>
+      <select id="grupo">
+        <option value="">-- Selecciona tu grupo --</option>
+        <option value="A">Grupo A - Enseñanza Media Humanístico-Científica</option>
+        <option value="B">Grupo B - Enseñanza Media Humanístico-Científica de adultos</option>
+        <option value="C">Grupo C - Enseñanza Media Técnico Profesional</option>
+      </select>
+      <a href="https://demre.cl/paes/factores-seleccion/tabla-transformacion-nem" target="_blank" class="help-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+        No sé cuál es mi grupo
+      </a>
+      <div id="grupo-error" class="error-message">Por favor, selecciona un grupo</div>
+    </div>
+    <div class="form-group">
+      <label>Ingresa tus notas de enseñanza media</label>
+      <div class="input-group">
+        <div class="input-item"><label for="nem1">1° Medio</label><input type="text" id="nem1" placeholder="Ej: 5,8" inputmode="decimal"><div id="nem1-error" class="error-message">Nota inválida (1.0 - 7.0)</div></div>
+        <div class="input-item"><label for="nem2">2° Medio</label><input type="text" id="nem2" placeholder="Ej: 6,2" inputmode="decimal"><div id="nem2-error" class="error-message">Nota inválida (1.0 - 7.0)</div></div>
+      </div>
+      <div class="input-group" style="margin-top:15px;">
+        <div class="input-item"><label for="nem3">3° Medio</label><input type="text" id="nem3" placeholder="Ej: 6,5" inputmode="decimal"><div id="nem3-error" class="error-message">Nota inválida (1.0 - 7.0)</div></div>
+        <div class="input-item"><label for="nem4">4° Medio</label><input type="text" id="nem4" placeholder="Ej: 6,7" inputmode="decimal"><div id="nem4-error" class="error-message">Nota inválida (1.0 - 7.0)</div></div>
+      </div>
+    </div>
+    <button id="calcular-btn">
+      <div class="spinner" id="calc-spinner"></div>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+      Calcular Puntaje NEM
+    </button>
+    <button id="limpiar-btn" class="secondary">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M3 6h18"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+      Limpiar Formulario
+    </button>
+    <div id="resultado">
+      <h3 class="result-title"><span>Resultados NEM</span><span id="grupo-resultado" style="font-size: 0.9rem; font-weight: 400;"></span></h3>
+      <div class="notas-container">
+        <div class="notas-grid">
+          <div class="nota-item"><span class="result-label">1° Medio:</span><span class="result-value" id="show-nem1"></span></div>
+          <div class="nota-item"><span class="result-label">2° Medio:</span><span class="result-value" id="show-nem2"></span></div>
+          <div class="nota-item"><span class="result-label">3° Medio:</span><span class="result-value" id="show-nem3"></span></div>
+          <div class="nota-item"><span class="result-label">4° Medio:</span><span class="result-value" id="show-nem4"></span></div>
+        </div>
+      </div>
+      <div class="promedio-box"><div class="result-item"><span>Promedio NEM:</span><span id="promedio-nem" style="font-weight: 600;"></span></div></div>
+      <div class="puntaje-box"><div class="result-item"><span>Puntaje NEM:</span><span id="puntaje-nem" style="font-size: 1.4rem;"></span></div></div>
+    </div>
+  </div>
 
   <div class="main-tab-content" id="simulador-paes">
+    <div class="info-box">
+      Selecciona una carrera, ingresa tus puntajes estimados y descubre cómo te posicionas respecto al puntaje de corte del último proceso de admisión.
     </div>
+    <div class="form-group">
+      <label for="universidad">Universidad</label>
+      <select id="universidad"><option value="">-- Cargando universidades... --</option></select>
+    </div>
+    <div class="form-group">
+      <label for="carrera">Carrera</label>
+      <select id="carrera" disabled><option value="">-- Selecciona una universidad primero --</option></select>
+    </div>
+    <div id="disclaimer-box" class="warning-box" style="display: none;"></div>
+    <div class="form-group">
+      <label>Ingresa tus puntajes PAES (100 - 1000)</label>
+      <div class="ponderacion-grid">
+        <div class="input-item">
+          <div class="score-input-group">
+            <label for="p-nem">Puntaje NEM</label>
+            <input type="number" id="p-nem" placeholder="100-1000">
+          </div>
+          <div class="ponderacion-info" id="w-nem"></div>
+        </div>
+        <div class="input-item">
+          <div class="score-input-group">
+            <label for="p-ranking">Ranking</label>
+            <input type="number" id="p-ranking" placeholder="100-1000">
+          </div>
+          <div class="ponderacion-info" id="w-ranking"></div>
+        </div>
+        <div class="input-item">
+          <div class="score-input-group">
+            <label for="p-lectora">C. Lectora</label>
+            <input type="number" id="p-lectora" placeholder="100-1000">
+          </div>
+          <div class="ponderacion-info" id="w-lectora"></div>
+        </div>
+        <div class="input-item">
+          <div class="score-input-group">
+            <label for="p-m1">Matemática M1</label>
+            <input type="number" id="p-m1" placeholder="100-1000">
+          </div>
+          <div class="ponderacion-info" id="w-m1"></div>
+        </div>
+        <div class="input-item">
+          <div class="score-input-group">
+            <label for="p-m2">Matemática M2</label>
+            <input type="number" id="p-m2" placeholder="100-1000">
+          </div>
+          <div class="ponderacion-info" id="w-m2"></div>
+        </div>
+        <div class="input-item">
+          <div class="score-input-group">
+            <label for="p-ciencias">Ciencias</label>
+            <input type="number" id="p-ciencias" placeholder="100-1000">
+          </div>
+          <div class="ponderacion-info" id="w-ciencias"></div>
+        </div>
+         <div class="input-item">
+          <div class="score-input-group">
+            <label for="p-historia">Historia</label>
+            <input type="number" id="p-historia" placeholder="100-1000">
+          </div>
+          <div class="ponderacion-info" id="w-historia"></div>
+        </div>
+      </div>
+    </div>
+    <button id="simular-btn">
+       <div class="spinner" id="sim-spinner"></div>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20V16"></path></svg>
+      Simular Puntaje
+    </button>
+    <div id="resultado-simulador">
+        <h3 class="result-title"><span>Resultado de la Simulación</span></h3>
+        <div class="puntaje-box">
+            <div class="result-item">
+                <span>Tu Puntaje Ponderado:</span>
+                <span id="puntaje-ponderado" class="result-value"></span>
+            </div>
+        </div>
+        <div class="corte-info">
+            Puntaje de Corte 2025: <strong id="puntaje-corte"></strong>
+        </div>
+        <div class="promedio-box">
+            <div class="result-item">
+                <span>Diferencia con el corte:</span>
+                <span id="diferencia-puntaje" class="diferencia"></span>
+            </div>
+        </div>
+    </div>
+  </div>
 
   <div class="info-section fade-in-section">
+    <h2>Preguntas Frecuentes</h2>
+    <div class="faq-item">
+      <button class="faq-question">¿Qué es el NEM?</button>
+      <div class="faq-answer"><p>El NEM (Notas de Enseñanza Media) es un factor de selección utilizado en el proceso de admisión a las universidades chilenas. Corresponde al promedio de tus notas de 1° a 4° medio, transformado a un puntaje estándar que va desde 100 hasta 1000 puntos.</p></div>
     </div>
+    <div class="faq-item">
+      <button class="faq-question">¿Cómo se calcula el puntaje NEM?</button>
+      <div class="faq-answer"><p>El cálculo del puntaje NEM se realiza en 3 pasos: Se calcula el promedio simple de tus notas de 1° a 4° medio. Este promedio se redondea a 2 decimales. Según tu grupo de dependencia (A, B o C), se busca en la tabla de transformación del DEMRE el puntaje correspondiente a tu promedio.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Importancia del NEM</button>
+      <div class="faq-answer"><p>El puntaje NEM es uno de los componentes principales del puntaje de selección a la universidad, junto con el puntaje de la PAES. Dependiendo de la carrera y universidad, el NEM puede representar entre el 10% y el 40% de tu puntaje final.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">¿Qué grupo de dependencia debo seleccionar?</button>
+      <div class="faq-answer"><p>Debes seleccionar según el tipo de establecimiento donde cursaste tu enseñanza media: Grupo A: Enseñanza Media Humanístico-Científica regular. Grupo B: Enseñanza Media Humanístico-Científica de adultos. Grupo C: Enseñanza Media Técnico-Profesional.</p></div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">¿Qué pasa si repetí un año?</button>
+        <div class="faq-answer"><p>Para el cálculo del NEM solo se consideran las notas del último año cursado en cada nivel. Si repetiste 2° medio, por ejemplo, solo se considerarán las notas de la segunda vez que lo cursaste.</p></div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">¿Cómo afecta el NEM a mi postulación?</button>
+        <div class="faq-answer"><p>El NEM es uno de los componentes de tu puntaje ponderado. Cada universidad y carrera asigna un porcentaje distinto al NEM en su ponderación, por lo que su importancia varía según tu elección de carrera.</p></div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">¿Puedo mejorar mi puntaje NEM?</button>
+        <div class="faq-answer"><p>El NEM se calcula con tus notas definitivas de enseñanza media, por lo que una vez egresado no puedes modificarlo. Sin embargo, si realizas un nuevo proceso de admisión después de algunos años, algunas universidades permiten usar un NEM recalculado.</p></div>
+    </div>
+  </div>
 
   <div class="info-section fade-in-section">
     <h2>Enlaces Útiles</h2>
