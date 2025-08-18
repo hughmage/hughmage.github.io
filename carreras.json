@@ -9853,5 +9853,590 @@
       "Ciencias": 0
     },
     "corte_2025": 594.65
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Auditoría",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 617.10
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Administración Pública",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 581.65
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Arquitectura",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 690.95
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Derecho",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 0
+    },
+    "corte_2025": 690.90
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Diseño",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 651.70
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Enfermería",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 752.80
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Agronómica",
+    "sede": "Ovalle",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 15,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 499.70
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Civil",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 676.60
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Civil Ambiental",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 611.75
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Civil de Minas",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 730.75
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Civil en Computación e Informática",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 674.65
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 729.20
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 660.45
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería de Minas",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 634.30
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería en Administración de Empresas",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 15,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 619.35
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería en Biotecnología Mención en Alimentos",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 627.85
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 554.90
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Mecánica",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 15,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 592.60
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Kinesiología",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 677.95
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Odontología",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 785.70
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Biología y Ciencias Naturales",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 561.80
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Castellano y Filosofía",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 624.60
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Educación Diferencial",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 597.05
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Educación General Básica",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 609.45
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Educación General Básica",
+    "sede": "Ovalle",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 513.40
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Educación Musical",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 583.00
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Educación Parvularia",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 599.55
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Historia y Geografía",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 0
+    },
+    "corte_2025": 502.20
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 639.30
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Matemáticas",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 521.00
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Pedagogía en Matemáticas y Física",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 572.05
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Periodismo",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 0
+    },
+    "corte_2025": 563.30
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Psicología",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 15,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 753.30
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Ingeniería Comercial",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 15,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 647.65
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Licenciatura en Astronomía",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 50,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 677.10
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Licenciatura en Física",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 50,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 581.60
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Licenciatura en Música",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 570.10
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Química",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 15,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 640.10
+  },
+  {
+    "universidad": "Universidad de La Serena",
+    "carrera": "Traducción Inglés-Español",
+    "sede": "La Serena",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 637.20
   }
 ]
