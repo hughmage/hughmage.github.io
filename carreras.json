@@ -13423,5 +13423,650 @@
       "Ciencias": 0
     },
     "corte_2025": 506.50
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Diseño Industrial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 605.30
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Diseño Gráfico",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 584.50
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Bachillerato en Ciencias",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 440.70
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Derecho",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 663.45
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Civil",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 620.30
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Arquitectura",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 729.30
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Civil Eléctrica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 667.00
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Bachillerato en Ciencias",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 684.80
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Contador Público y Auditor",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 548.70
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Contador Público y Auditor",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 710.80
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Civil en Automatización",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 457.90
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Civil en Informática",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 679.70
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Enfermería",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 30
+    },
+    "corte_2025": 687.35
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Fonoaudiología",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 678.40
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 745.70
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 619.80
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Civil Química",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 623.40
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 612.00
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Civil en Informática",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 712.10
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería de Ejecución en Computación e Informática",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 569.60
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Eléctrica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 599.50
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Electrónica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 511.50
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 407.95
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Estadística",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 618.80
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería en Alimentos",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 45,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 430.20
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería en Recursos Naturales",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 486.15
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Mecánica",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 499.60
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Medicina",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 889.50
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 649.70
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Castellano y Comunicación",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 523.40
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Ciencias Naturales Mención Biología, Mención Física o Mención Química",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 459.00
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Educación Especial con Mención en Dificultades Específicas del Aprendizaje",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 657.80
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 30,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 647.25
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Educación General Básica con Mención en Lenguaje y Comunicación o Educación Matemática",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 597.60
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Educación Matemática",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 466.90
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Educación Parvularia Mención Didáctica en Primera Infancia",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 40,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 613.45
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Historia y Geografía",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 521.90
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 559.45
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Psicología",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 780.00
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Química y Farmacia",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 805.90
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 706.70
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Trabajo Social",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 438.20
+  },
+  {
+    "universidad": "Universidad del Bío Bío",
+    "carrera": "Trabajo Social",
+    "sede": "Chillán",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 637.80
   }
 ]
