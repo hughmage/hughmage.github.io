@@ -11998,5 +11998,605 @@
       "Ciencias": 10
     },
     "corte_2025": 527.3
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Agronomía",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 640.5
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Administración Pública",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 601.0
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Arquitectura",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 721.55
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Auditoría e Ingeniería en Control de Gestión",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 620.0
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Bioquímica",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 693.3
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Contador Público y Auditor",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 610.4
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Derecho",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 753.15
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Diseño",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 641.8
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Enfermería",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 735.7
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Fonoaudiología",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 613.5
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil de Minas",
+    "sede": "Curicó",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 628.4
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil Eléctrica",
+    "sede": "Curicó",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 646.7
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil en Bioinformática",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 472.7
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil en Computación",
+    "sede": "Curicó",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 651.4
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil en Obras Civiles",
+    "sede": "Curicó",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 466.5
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Curicó",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 649.5
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "Curicó",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 625.8
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil Mecatrónica",
+    "sede": "Curicó",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 594.4
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil Plan Común",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 513.7
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Civil Plan Común",
+    "sede": "Curicó",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 498.9
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería en Desarrollo de Videojuegos y Realidad Virtual",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 474.7
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Informática Empresarial",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 599.25
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Kinesiología",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 700.95
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Medicina",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 910.0
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 625.7
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 762.15
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Odontología",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 810.75
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Pedagogía en Educación General Básica Mención Alemán",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 663.7
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Pedagogía en Educación General Básica Mención Inglés",
+    "sede": "Linares",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 509.0
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Pedagogía en Educación Media en Alemán",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 598.8
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Pedagogía en Educación Media en Biología y Química",
+    "sede": "Linares",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 519.3
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Pedagogía en Educación Media en Inglés",
+    "sede": "Linares",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 473.3
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Pedagogía en Educación Media en Matemática y Física",
+    "sede": "Linares",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 561.95
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Pedagogía en Educación Parvularia Mención Alemán",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 524.4
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Pedagogía en Educación Parvularia Mención Inglés",
+    "sede": "Linares",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 504.3
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Psicología",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 723.6
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Tecnología Médica",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 718.0
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 684.8
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 670.2
+  },
+  {
+    "universidad": "Universidad de Talca",
+    "carrera": "Licenciatura en Interpretación y Formación Musical Especializada",
+    "sede": "Talca",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 653.9
   }
 ]
