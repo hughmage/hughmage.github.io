@@ -10438,5 +10438,485 @@
       "Ciencias": 0
     },
     "corte_2025": 637.20
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Bachillerato de Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 60,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 742.2
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Comunicación Audiovisual",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 40,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 582.2
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Educación de Párvulos con Menciones",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 554.1
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "International Business",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 805.8
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Literatura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 657.4
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 785.15
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Administración de Servicios",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 25,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 633.45
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Bachillerato de Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 671.15
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Bachillerato de Enfermería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 618.5
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Bachillerato de Ingeniería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 613.7
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Bachillerato de Medicina",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 898.85
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Bachillerato de Obstetricia y Puericultura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 589.0
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Bachillerato de Odontología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 663.55
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Bachillerato de Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 696.05
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 767.95
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Derecho e Historia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 829.55
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Derecho y Filosofía",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 0
+    },
+    "corte_2025": 784.2
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Enfermería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 702.8
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Filosofía",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 721.1
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Historia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 35,
+      "Ciencias": 0
+    },
+    "corte_2025": 617.15
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Ingeniería Civil (Plan Común)",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 755.35
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Kinesiología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 675.2
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Publicidad",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 40,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Cciences": 10
+    },
+    "corte_2025": 586.45
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Medicina",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 939.5
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 567.0
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 722.9
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Odontología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 796.95
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Pedagogía Básica Bilingüe Inglés/Español",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 30,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 642.7
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Pedagogía Básica con Menciones",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 563.75
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Periodismo",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 40,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 584.3
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 773.85
+  },
+  {
+    "universidad": "Universidad de los Andes",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 570.2
   }
 ]
