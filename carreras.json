@@ -14563,5 +14563,410 @@
       "Ciencias": 10
     },
     "corte_2025": 636.30
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Actuación y Creación Teatral",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 763.20
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Arquitectura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 602.90
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Ciencias de la Familia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 558.30
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Contador Auditor",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 567.95
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 550.70
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Dirección y Gestión de Artes Culinarias",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 711.20
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Diseño",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 509.50
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Diseño de Moda y Management",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 615.75
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Enfermería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 15,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 694.10
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Ingeniería Civil Biomédica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 709.90
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Ingeniería Civil en Realidad Virtual y Videojuegos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 498.35
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Cciences": 10
+    },
+    "corte_2025": 615.00
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Ingeniería Civil Informática y Telecomunicaciones",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 542.40
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Ingeniería en Información y Control de Gestión",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 561.95
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Kinesiología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 15,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 679.35
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Licenciatura en Historia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 35,
+      "Ciencias": 0
+    },
+    "corte_2025": 509.05
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Licenciatura en Literatura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 487.70
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Medicina",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 927.85
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 540.90
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Odontología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 721.05
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Pedagogía en Educación Básica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 518.55
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Pedagogía en Educación Parvularia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 461.60
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Periodismo",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 449.20
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 683.40
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Licenciatura en Artes Visuales",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 465.95
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 546.70
+  },
+  {
+    "universidad": "Universidad Finis Terrae",
+    "carrera": "Publicidad",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 45,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 514.00
   }
 ]
