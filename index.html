@@ -243,7 +243,6 @@
   .saved-sim-item p { font-size: 0.9rem; margin: 4px 0; display: flex; justify-content: space-between; }
   .delete-sim-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; cursor: pointer; color: var(--gray); font-size: 1.2rem; }
   .delete-sim-btn:hover { color: var(--danger); }
-  .filters-group { display: flex; gap: 15px; margin-bottom: 20px; }
 
   .faq-item { border-bottom: 1px solid var(--border); margin-bottom: 10px; }
   .faq-question { width: 100%; background: none; border: none; text-align: left; font-weight: 500; font-size: 1rem; padding: 15px 0; cursor: pointer; display: flex; justify-content: space-between; align-items: center; color: var(--label-text); }
@@ -260,7 +259,7 @@
     background-color: var(--light);
     border-radius: 8px;
     font-style: italic;
-    color: var(--gray);
+    color: var(--subtitle-text);
   }
 
   .fade-in-section { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
@@ -272,9 +271,6 @@
   
   .warning-box { background-color: var(--warning-bg); border-left: 4px solid var(--warning); padding: 15px; border-radius: 8px; margin-top: 15px; font-size: 0.9rem; }
 
-  @media (max-width: 768px) {
-    .filters-group { flex-direction: column; }
-  }
   @media (max-width: 480px) {
     .container { margin: 15px; padding: 15px; }
     .input-group, .ponderacion-grid { flex-direction: column; gap: 15px; }
@@ -352,19 +348,9 @@
     <div class="info-box">
       Selecciona una carrera, ingresa tus puntajes y descubre tu ponderación. Guarda simulaciones para comparar tus opciones.
     </div>
-    <div class="filters-group">
-      <div class="form-group input-item">
-        <label for="area-conocimiento">Área de Conocimiento</label>
-        <select id="area-conocimiento"><option value="">-- Todas las áreas --</option></select>
-      </div>
-      <div class="form-group input-item">
-        <label for="region">Región</label>
-        <select id="region"><option value="">-- Todas las regiones --</option></select>
-      </div>
-    </div>
     <div class="form-group">
       <label for="universidad">Universidad</label>
-      <select id="universidad" disabled><option value="">-- Filtra para ver opciones --</option></select>
+      <select id="universidad"><option value="">-- Selecciona una universidad --</option></select>
     </div>
     <div class="form-group">
       <label for="carrera">Carrera</label>
@@ -408,9 +394,9 @@
     <h2>Fechas Clave y Noticias</h2>
     <div class="news-grid">
       <a href="https://demre.cl/" target="_blank" class="news-item">
-        <span class="date">AGOSTO 2025</span>
-        <h3>Inscripción PAES de Verano</h3>
-        <p>Proceso de inscripción para la Prueba de Acceso a la Educación Superior que se rinde a fin de año.</p>
+        <span class="date">SEPTIEMBRE 2025</span>
+        <h3>Publicación Oferta Definitiva de Carreras</h3>
+        <p>Publicación de Carreras, Vacantes y Ponderaciones para la Admisión 2026.</p>
       </a>
       <a href="https://demre.cl/" target="_blank" class="news-item">
         <span class="date">DICIEMBRE 2025</span>
@@ -429,29 +415,37 @@
     <h2>Preguntas Frecuentes</h2>
     <div class="faq-item">
       <button class="faq-question">¿Qué es el NEM?</button>
-      <div class="faq-answer"><p>El NEM (Notas de Enseñanza Media) es el promedio de tus notas de 1° a 4° medio, transformado a un puntaje estándar (100 a 1000) que se usa en la admisión universitaria.</p></div>
+      <div class="faq-answer"><p>El NEM (Notas de Enseñanza Media) es el promedio de tus notas de 1° a 4° medio, transformado a un puntaje estándar (de 100 a 1000 puntos) que se usa en la admisión universitaria.</p></div>
+    </div>
+     <div class="faq-item">
+      <button class="faq-question">¿Qué es la PAES y qué pruebas existen?</button>
+      <div class="faq-answer">
+          <p>La PAES (Prueba de Acceso a la Educación Superior) es el conjunto de pruebas que debes rendir para postular a la universidad. Se divide en:</p>
+          <ul>
+              <li><b>Pruebas Obligatorias:</b> Competencia Lectora y Competencia Matemática 1 (M1). Son requisito para todas las carreras.</li>
+              <li><b>Pruebas Electivas:</b> Competencia Matemática 2 (M2), Ciencias, e Historia y Ciencias Sociales. Debes rendir al menos una, dependiendo de los requisitos de la carrera de tu interés.</li>
+          </ul>
+      </div>
     </div>
     <div class="faq-item">
-        <button class="faq-question">¿Qué es la PAES y qué pruebas existen?</button>
-        <div class="faq-answer">
-            <p>La PAES (Prueba de Acceso a la Educación Superior) es el conjunto de pruebas que debes rendir para postular a la universidad. Se divide en:</p>
-            <ul>
-                <li><b>Pruebas Obligatorias:</b> Competencia Lectora y Competencia Matemática 1 (M1). Son requisito para todas las carreras.</li>
-                <li><b>Pruebas Electivas:</b> Competencia Matemática 2 (M2), Ciencias, e Historia y Ciencias Sociales. Debes rendir al menos una, dependiendo de los requisitos de la carrera de tu interés.</li>
-            </ul>
-        </div>
+      <button class="faq-question">¿Qué prueba electiva debo inscribir?</button>
+      <div class="faq-answer"><p>Depende de la carrera a la que quieres postular. Carreras científicas y de la salud suelen exigir la prueba de Ciencias, mientras que carreras de humanidades y ciencias sociales piden la de Historia. Algunas ingenierías y carreras científicas exigen la M2. ¡Siempre revisa los requisitos de las carreras de tu interés en el sitio del DEMRE!</p></div>
     </div>
     <div class="faq-item">
-        <button class="faq-question">¿Qué prueba electiva debo inscribir?</button>
-        <div class="faq-answer"><p>Depende de la carrera a la que quieres postular. Carreras científicas y de la salud suelen exigir la prueba de Ciencias, mientras que carreras de humanidades y ciencias sociales piden la de Historia. Algunas ingenierías y carreras científicas exigen la M2. ¡Siempre revisa los requisitos de las carreras de tu interés en el sitio del DEMRE!</p></div>
-    </div>
-    <div class="faq-item">
-        <button class="faq-question">¿Cómo funciona el puntaje ponderado?</button>
-        <div class="faq-answer"><p>El puntaje ponderado es tu puntaje final de postulación para una carrera específica. Se calcula sumando los porcentajes de tus distintos puntajes (NEM, Ranking, PAES) según lo definido por cada universidad para esa carrera. Por ejemplo, una carrera puede darle 20% al NEM, 20% al Ranking, 30% a Lectora, etc.</p></div>
+      <button class="faq-question">¿Cómo funciona el puntaje ponderado?</button>
+      <div class="faq-answer"><p>El puntaje ponderado es tu puntaje final de postulación para una carrera específica. Se calcula sumando los porcentajes de tus distintos puntajes (NEM, Ranking, PAES) según lo definido por cada universidad para esa carrera. Por ejemplo, una carrera puede darle 20% al NEM, 20% al Ranking, 30% a Lectora, etc.</p></div>
     </div>
     <div class="faq-item">
       <button class="faq-question">¿Qué grupo de dependencia debo seleccionar?</button>
       <div class="faq-answer"><p>Debes seleccionar según el tipo de establecimiento donde cursaste tu enseñanza media: Grupo A para científico-humanista, Grupo B para científico-humanista de adultos, y Grupo C para técnico-profesional.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">¿De dónde salen los datos de las carreras?</button>
+      <div class="faq-answer"><p>Los datos de ponderaciones y puntajes de corte son referenciales y se basan en la información oficial publicada por el DEMRE para el Proceso de Admisión 2025.</p></div>
+    </div>
+     <div class="faq-item">
+      <button class="faq-question">¿Esta página es oficial?</button>
+      <div class="faq-answer"><p>No, esta es una herramienta independiente creada para ayudar a los estudiantes. Siempre debes corroborar la información con las fuentes oficiales como DEMRE y Mineduc.</p></div>
     </div>
   </div>
 
@@ -464,6 +458,10 @@
       </a>
       <a href="https://demre.cl" target="_blank" class="useful-link">
         Sitio Oficial DEMRE
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      </a>
+      <a href="https://acceso.mineduc.cl/portal-ranking/" target="_blank" class="useful-link">
+        Info Puntaje Ranking
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
       </a>
     </div>
@@ -552,7 +550,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         const nemInput = getEl('p-nem');
         if (!nemInput.value) {
            nemInput.value = lastCalculatedPuntajeNEM;
-           validateInput(nemInput.id, 100, 1000, true);
+           validarPuntajePAES(nemInput.id);
         }
       }
     }
@@ -592,36 +590,44 @@ document.addEventListener('DOMContentLoaded', async function() {
     backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 
-  function validateInput(inputId, min, max, allowEmpty = false) {
-    const input = getEl(inputId);
-    const errorEl = getEl(inputId + '-error');
-    const valueStr = input.value.replace(',', '.').trim();
-    
-    if (valueStr === '') {
-      input.className = '';
-      if(errorEl) errorEl.style.display = 'none';
-      return allowEmpty ? 0 : null;
-    }
-
-    const valueNum = parseFloat(valueStr);
-    if (isNaN(valueNum) || valueNum < min || valueNum > max) {
-      input.className = 'invalid';
-      if(errorEl) errorEl.style.display = 'block';
-      return null;
-    }
-    
-    input.className = 'valid';
-    if(errorEl) errorEl.style.display = 'none';
-    return valueNum;
+  function mostrarError(elementId, show, message = '') {
+      const errorEl = getEl(elementId);
+      errorEl.textContent = message;
+      errorEl.style.display = show ? 'block' : 'none';
   }
+
+  function validarNota(inputId) {
+      const input = getEl(inputId);
+      const value = parseFloat(input.value.replace(',', '.'));
+      const isValid = !isNaN(value) && value >= 1.0 && value <= 7.0;
+      input.classList.toggle('valid', isValid);
+      input.classList.toggle('invalid', !isValid && input.value !== '');
+      mostrarError(inputId + '-error', !isValid && input.value !== '', 'Nota inválida (1.0 - 7.0)');
+      return isValid;
+  }
+  
+  function validarPuntajePAES(inputId) {
+      const input = getEl(inputId);
+      const value = parseInt(input.value, 10);
+      const isValid = !isNaN(value) && value >= 100 && value <= 1000;
+      input.classList.toggle('valid', isValid);
+      input.classList.toggle('invalid', !isValid && input.value !== '');
+      return isValid || input.value === '';
+  }
+
 
   // --- NEM CALCULATOR LOGIC ---
   function buscarPuntaje(grupo, nota) {
     const tabla = tablasNEM[grupo];
-    if (!tabla) return 100;
+    if (!tabla || Object.keys(tabla).length === 0) {
+        console.warn('Tabla NEM no disponible o vacía para el grupo:', grupo);
+        return 100;
+    }
     const notaRedondeada = redondearNota(nota);
     const notaStr = notaRedondeada.toFixed(2);
     if (tabla[notaStr] !== undefined) return tabla[notaStr];
+    
+    // Si la nota exacta no está, busca la más cercana hacia abajo (como lo hace el DEMRE)
     const claves = Object.keys(tabla).map(Number).sort((a, b) => a - b);
     for (let i = claves.length - 1; i >= 0; i--) {
       if (claves[i] <= notaRedondeada) return tabla[claves[i].toFixed(2)];
@@ -638,21 +644,26 @@ document.addEventListener('DOMContentLoaded', async function() {
     setTimeout(() => {
       const grupoEl = getEl('grupo');
       const grupo = grupoEl.value;
-      let valid = true;
+      let allValid = true;
 
       if (!grupo) {
-        grupoEl.className = 'invalid';
-        getEl('grupo-error').style.display = 'block';
-        valid = false;
+        grupoEl.classList.add('invalid');
+        mostrarError('grupo-error', true, 'Por favor, selecciona un grupo');
+        allValid = false;
       } else {
-        grupoEl.className = 'valid';
-        getEl('grupo-error').style.display = 'none';
+        grupoEl.classList.remove('invalid');
+        grupoEl.classList.add('valid');
+        mostrarError('grupo-error', false);
       }
 
-      const notas = ['nem1', 'nem2', 'nem3', 'nem4'].map(id => validateInput(id, 1, 7));
-      if (notas.some(n => n === null)) valid = false;
+      const notas = ['nem1', 'nem2', 'nem3', 'nem4'].map(id => {
+          if (!validarNota(id) && getEl(id).value !== '') allValid = false;
+          return parseFloat(getEl(id).value.replace(',', '.'));
+      });
       
-      if (!valid) {
+      if (notas.some(isNaN)) allValid = false;
+      
+      if (!allValid) {
         spinner.style.display = 'none';
         btn.disabled = false;
         return;
@@ -665,9 +676,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       getEl('promedio-nem').textContent = promedio.toFixed(2).replace('.', ',');
       getEl('puntaje-nem').textContent = puntaje;
       
-      const resultadoSection = getEl('resultado');
-      resultadoSection.style.display = 'block';
-      
+      getEl('resultado').style.display = 'block';
       spinner.style.display = 'none';
       btn.disabled = false;
     }, 300);
@@ -685,61 +694,40 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
 
   // --- PAES SIMULATOR LOGIC ---
-  function populateFilters() {
-    const areas = [...new Set(carrerasData.map(c => c.area).filter(Boolean))].sort();
-    const regiones = [...new Set(carrerasData.map(c => c.region).filter(Boolean))].sort();
-    
-    const areaSelect = getEl('area-conocimiento');
-    const regionSelect = getEl('region');
-    
-    areas.forEach(a => areaSelect.add(new Option(a, a)));
-    regiones.forEach(r => regionSelect.add(new Option(r, r)));
-  }
+  function setupSimulator() {
+    const uniSelect = getEl('universidad');
+    const carreraSelect = getEl('carrera');
+    const universidades = [...new Set(carrerasData.map(c => c.universidad))].sort();
 
-  function filterAndPopulateUniversities() {
-      const selectedArea = getEl('area-conocimiento').value;
-      const selectedRegion = getEl('region').value;
-      const uniSelect = getEl('universidad');
+    universidades.forEach(uni => uniSelect.add(new Option(uni, uni)));
 
-      const filteredCarreras = carrerasData.filter(c => 
-          (!selectedArea || c.area === selectedArea) && 
-          (!selectedRegion || c.region === selectedRegion)
-      );
+    uniSelect.addEventListener('change', () => {
+        const selectedUni = uniSelect.value;
+        carreraSelect.innerHTML = '<option value="">-- Selecciona una carrera --</option>';
+        displayPonderaciones(null);
+        
+        if (selectedUni) {
+            const carreras = carrerasData
+                .filter(c => c.universidad === selectedUni)
+                .sort((a, b) => a.carrera.localeCompare(b.carrera));
+            
+            carreras.forEach((c, index) => {
+                const optionText = `${c.carrera}${c.sede ? ` (${c.sede})` : ''}`;
+                // Usamos un ID único para evitar colisiones
+                const uniqueId = `${c.universidad}-${c.carrera}-${c.sede || ''}`;
+                carreraSelect.add(new Option(optionText, uniqueId));
+            });
+            carreraSelect.disabled = false;
+        } else {
+            carreraSelect.disabled = true;
+        }
+    });
 
-      const universidades = [...new Set(filteredCarreras.map(c => c.universidad))].sort();
-      
-      uniSelect.innerHTML = '<option value="">-- Selecciona una universidad --</option>';
-      universidades.forEach(uni => uniSelect.add(new Option(uni, uni)));
-      uniSelect.disabled = universidades.length === 0;
-      
-      filterAndPopulateCarreras();
-  }
-
-  function filterAndPopulateCarreras() {
-      const selectedUni = getEl('universidad').value;
-      const selectedArea = getEl('area-conocimiento').value;
-      const selectedRegion = getEl('region').value;
-      const carreraSelect = getEl('carrera');
-
-      carreraSelect.innerHTML = '<option value="">-- Selecciona una carrera --</option>';
-      if (!selectedUni) {
-          carreraSelect.disabled = true;
-          return;
-      }
-
-      const carreras = carrerasData.filter(c =>
-          c.universidad === selectedUni &&
-          (!selectedArea || c.area === selectedArea) &&
-          (!selectedRegion || c.region === selectedRegion)
-      ).sort((a, b) => a.carrera.localeCompare(b.carrera));
-
-      carreras.forEach(c => {
-          const optionText = `${c.carrera}${c.sede ? ` (${c.sede})` : ''}`;
-          // Usamos un ID único para la carrera en lugar del índice para evitar problemas al filtrar
-          const uniqueId = `${c.universidad}-${c.carrera}-${c.sede || ''}`;
-          carreraSelect.add(new Option(optionText, uniqueId));
-      });
-      carreraSelect.disabled = carreras.length === 0;
+    carreraSelect.addEventListener('change', () => {
+        const carreraId = carreraSelect.value;
+        const carrera = carrerasData.find(c => `${c.universidad}-${c.carrera}-${c.sede || ''}` === carreraId);
+        displayPonderaciones(carrera);
+    });
   }
 
   function displayPonderaciones(carrera) {
@@ -761,8 +749,13 @@ document.addEventListener('DOMContentLoaded', async function() {
             inputEl.className = '';
           }
       });
-
-      const disclaimers = { /* ... tu lógica de disclaimers ... */ };
+      
+      // Lógica de disclaimers original
+      const disclaimers = {
+        "Pontificia Universidad Católica de Chile": ["Actuación", "Música", "Interpretación Musical"],
+        "Universidad de Chile": ["Actuación Teatral", "Danza", "Diseño Teatral", "Interpretación Musical", "Sonido", "Teoría de la Música", "Teoría del Arte"],
+        "Universidad Mayor": ["Actuación", "Cine", "Teatro Musical"]
+      };
       const uniDisclaimers = disclaimers[carrera?.universidad] || [];
       if (uniDisclaimers.includes(carrera?.carrera)) {
         disclaimerBox.textContent = 'Importante: Esta carrera requiere una prueba especial, la cual completa esta ponderación.';
@@ -794,22 +787,35 @@ document.addEventListener('DOMContentLoaded', async function() {
             btn.disabled = false;
             return;
         }
+        
+        let allValid = true;
+        const puntajeInputs = ['p-nem', 'p-ranking', 'p-lectora', 'p-m1', 'p-m2', 'p-ciencias', 'p-historia'];
+        puntajeInputs.forEach(id => {
+            if(!getEl(id).disabled && !validarPuntajePAES(id)) allValid = false;
+        });
+
+        if(!allValid) {
+            alert("Revisa los puntajes ingresados. Deben estar entre 100 y 1000.");
+            spinner.style.display = 'none';
+            btn.disabled = false;
+            return;
+        }
 
         const p = carrera.ponderaciones;
         const scores = {
-            nem: validateInput('p-nem', 100, 1000, true) || 0,
-            ranking: validateInput('p-ranking', 100, 1000, true) || 0,
-            lectora: validateInput('p-lectora', 100, 1000, true) || 0,
-            m1: validateInput('p-m1', 100, 1000, true) || 0,
-            m2: validateInput('p-m2', 100, 1000, true) || 0,
-            ciencias: validateInput('p-ciencias', 100, 1000, true) || 0,
-            historia: validateInput('p-historia', 100, 1000, true) || 0
+            nem: parseInt(getEl('p-nem').value) || 0,
+            ranking: parseInt(getEl('p-ranking').value) || 0,
+            lectora: parseInt(getEl('p-lectora').value) || 0,
+            m1: parseInt(getEl('p-m1').value) || 0,
+            m2: parseInt(getEl('p-m2').value) || 0,
+            ciencias: parseInt(getEl('p-ciencias').value) || 0,
+            historia: parseInt(getEl('p-historia').value) || 0
         };
 
         let puntajePonderado = (scores.nem * p.NEM + scores.ranking * p.Ranking + scores.lectora * p.Lectora + scores.m1 * p.M1 + scores.m2 * p.M2) / 100;
         
         let electivaScore = 0;
-        if (p.Ciencias > 0 && p.Historia > 0) { // Si ambas electivas ponderan, se usa la mayor
+        if (p.Ciencias > 0 && p.Historia > 0) {
              electivaScore = Math.max(scores.ciencias, scores.historia) * p.Ciencias;
         } else {
             if (p.Ciencias > 0) electivaScore += scores.ciencias * p.Ciencias;
@@ -836,11 +842,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       const grid = getEl('saved-sim-grid');
       const container = getEl('saved-simulations');
       
-      if(savedSimulations.length === 0) {
-          container.style.display = 'none';
-          return;
-      }
-      container.style.display = 'block';
+      container.style.display = savedSimulations.length > 0 ? 'block' : 'none';
       grid.innerHTML = '';
       
       savedSimulations.forEach((sim, index) => {
@@ -868,6 +870,10 @@ document.addEventListener('DOMContentLoaded', async function() {
           alert("Puedes guardar un máximo de 6 simulaciones.");
           return;
       }
+      if (!ponderado || ponderado === "0.00") {
+          alert("Debes simular un puntaje antes de guardarlo.");
+          return;
+      }
 
       savedSimulations.push({
           id: Date.now(),
@@ -889,8 +895,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     const dataLoaded = await fetchData();
     if (dataLoaded && carrerasData.length > 0) {
-      populateFilters();
-      filterAndPopulateUniversities();
+      setupSimulator();
     } else {
       getEl('universidad').innerHTML = '<option value="">Error al cargar datos</option>';
     }
@@ -902,15 +907,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     getEl('simular-btn').addEventListener('click', simularPuntaje);
     getEl('guardar-sim-btn').addEventListener('click', saveSimulation);
     
-    getEl('area-conocimiento').addEventListener('change', filterAndPopulateUniversities);
-    getEl('region').addEventListener('change', filterAndPopulateUniversities);
-    getEl('universidad').addEventListener('change', filterAndPopulateCarreras);
-    getEl('carrera').addEventListener('change', () => {
-        const carreraId = getEl('carrera').value;
-        const carrera = carrerasData.find(c => `${c.universidad}-${c.carrera}-${c.sede || ''}` === carreraId);
-        displayPonderaciones(carrera);
-    });
-
     getEl('saved-sim-grid').addEventListener('click', (e) => {
       if (e.target.classList.contains('delete-sim-btn')) {
         const index = parseInt(e.target.dataset.index, 10);
@@ -926,16 +922,16 @@ document.addEventListener('DOMContentLoaded', async function() {
           if (input.value) {
             input.classList.add('valid');
             input.classList.remove('invalid');
-            getEl('grupo-error').style.display = 'none';
+            mostrarError('grupo-error', false);
           }
         } else {
-          validateInput(input.id, 1, 7);
+          validarNota(input.id);
         }
       });
     });
 
     ['p-nem', 'p-ranking', 'p-lectora', 'p-m1', 'p-m2', 'p-ciencias', 'p-historia'].forEach(id => {
-        getEl(id).addEventListener('input', () => validateInput(id, 100, 1000, true));
+        getEl(id).addEventListener('input', () => validarPuntajePAES(id));
     });
 
     renderSavedSimulations();
