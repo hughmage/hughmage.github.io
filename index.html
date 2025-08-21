@@ -249,8 +249,8 @@
   .faq-question::after { content: '+'; font-size: 1.5rem; transition: transform 0.3s ease; }
   .faq-question.active::after { transform: rotate(45deg); }
   .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.4s ease; padding: 0 10px; }
-  .faq-answer p { padding-bottom: 15px; }
-  .faq-answer ul { margin-left: 20px; padding-bottom: 15px; }
+  .faq-answer p, .faq-answer ul { padding-bottom: 15px; }
+  .faq-answer ul { margin-left: 20px; }
   
   .about-section {
     text-align: center;
@@ -350,7 +350,7 @@
     </div>
     <div class="form-group">
       <label for="universidad">Universidad</label>
-      <select id="universidad"><option value="">-- Selecciona una universidad --</option></select>
+      <select id="universidad"><option value="">-- Cargando universidades... --</option></select>
     </div>
     <div class="form-group">
       <label for="carrera">Carrera</label>
@@ -384,7 +384,7 @@
           Guardar Simulación
         </button>
     </div>
-    <div id="saved-simulations">
+    <div id="saved-simulations" style="display:none;">
       <h3 class="result-title">Simulaciones Guardadas</h3>
       <div id="saved-sim-grid" class="saved-sim-grid"></div>
     </div>
@@ -415,9 +415,9 @@
     <h2>Preguntas Frecuentes</h2>
     <div class="faq-item">
       <button class="faq-question">¿Qué es el NEM?</button>
-      <div class="faq-answer"><p>El NEM (Notas de Enseñanza Media) es el promedio de tus notas de 1° a 4° medio, transformado a un puntaje estándar (de 100 a 1000 puntos) que se usa en la admisión universitaria.</p></div>
+      <div class="faq-answer"><p>El NEM (Notas de Enseñanza Media) es un factor de selección utilizado en el proceso de admisión a las universidades chilenas. Corresponde al promedio de tus notas de 1° a 4° medio, transformado a un puntaje estándar que va desde 100 hasta 1000 puntos.</p></div>
     </div>
-     <div class="faq-item">
+    <div class="faq-item">
       <button class="faq-question">¿Qué es la PAES y qué pruebas existen?</button>
       <div class="faq-answer">
           <p>La PAES (Prueba de Acceso a la Educación Superior) es el conjunto de pruebas que debes rendir para postular a la universidad. Se divide en:</p>
@@ -428,24 +428,32 @@
       </div>
     </div>
     <div class="faq-item">
-      <button class="faq-question">¿Qué prueba electiva debo inscribir?</button>
-      <div class="faq-answer"><p>Depende de la carrera a la que quieres postular. Carreras científicas y de la salud suelen exigir la prueba de Ciencias, mientras que carreras de humanidades y ciencias sociales piden la de Historia. Algunas ingenierías y carreras científicas exigen la M2. ¡Siempre revisa los requisitos de las carreras de tu interés en el sitio del DEMRE!</p></div>
+      <button class="faq-question">¿Cómo se calcula el puntaje NEM?</button>
+      <div class="faq-answer"><p>El cálculo del puntaje NEM se realiza en 3 pasos: Se calcula el promedio simple de tus notas de 1° a 4° medio. Este promedio se redondea a 2 decimales. Según tu grupo de dependencia (A, B o C), se busca en la tabla de transformación del DEMRE el puntaje correspondiente a tu promedio.</p></div>
     </div>
     <div class="faq-item">
-      <button class="faq-question">¿Cómo funciona el puntaje ponderado?</button>
-      <div class="faq-answer"><p>El puntaje ponderado es tu puntaje final de postulación para una carrera específica. Se calcula sumando los porcentajes de tus distintos puntajes (NEM, Ranking, PAES) según lo definido por cada universidad para esa carrera. Por ejemplo, una carrera puede darle 20% al NEM, 20% al Ranking, 30% a Lectora, etc.</p></div>
+        <button class="faq-question">¿Qué prueba electiva debo inscribir?</button>
+        <div class="faq-answer"><p>Depende de la carrera a la que quieres postular. Carreras científicas y de la salud suelen exigir la prueba de Ciencias, mientras que carreras de humanidades y ciencias sociales piden la de Historia. Algunas ingenierías y carreras científicas exigen la M2. ¡Siempre revisa los requisitos de las carreras de tu interés en el sitio del DEMRE!</p></div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">¿Cómo funciona el puntaje ponderado?</button>
+        <div class="faq-answer"><p>El puntaje ponderado es tu puntaje final de postulación para una carrera específica. Se calcula sumando los porcentajes de tus distintos puntajes (NEM, Ranking, PAES) según lo definido por cada universidad para esa carrera. Por ejemplo, una carrera puede darle 20% al NEM, 20% al Ranking, 30% a Lectora, etc.</p></div>
     </div>
     <div class="faq-item">
       <button class="faq-question">¿Qué grupo de dependencia debo seleccionar?</button>
       <div class="faq-answer"><p>Debes seleccionar según el tipo de establecimiento donde cursaste tu enseñanza media: Grupo A para científico-humanista, Grupo B para científico-humanista de adultos, y Grupo C para técnico-profesional.</p></div>
     </div>
     <div class="faq-item">
-      <button class="faq-question">¿De dónde salen los datos de las carreras?</button>
-      <div class="faq-answer"><p>Los datos de ponderaciones y puntajes de corte son referenciales y se basan en la información oficial publicada por el DEMRE para el Proceso de Admisión 2025.</p></div>
+        <button class="faq-question">¿Qué pasa si repetí un año?</button>
+        <div class="faq-answer"><p>Para el cálculo del NEM solo se consideran las notas del último año cursado en cada nivel. Si repetiste 2° medio, por ejemplo, solo se considerarán las notas de la segunda vez que lo cursaste.</p></div>
     </div>
-     <div class="faq-item">
-      <button class="faq-question">¿Esta página es oficial?</button>
-      <div class="faq-answer"><p>No, esta es una herramienta independiente creada para ayudar a los estudiantes. Siempre debes corroborar la información con las fuentes oficiales como DEMRE y Mineduc.</p></div>
+    <div class="faq-item">
+        <button class="faq-question">¿De dónde salen los datos de las carreras?</button>
+        <div class="faq-answer"><p>Los datos de ponderaciones y puntajes de corte son referenciales y se basan en la información oficial publicada por el DEMRE para el Proceso de Admisión 2025.</p></div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">¿Esta página es oficial?</button>
+        <div class="faq-answer"><p>No, esta es una herramienta independiente creada para ayudar a los estudiantes. Siempre debes corroborar la información con las fuentes oficiales como DEMRE y Mineduc.</p></div>
     </div>
   </div>
 
@@ -456,12 +464,16 @@
         Obtiene tus notas aquí
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
       </a>
-      <a href="https://demre.cl" target="_blank" class="useful-link">
-        Sitio Oficial DEMRE
+      <a href="https://mifuturo.cl/buscador-de-empleabilidad-e-ingresos/" target="_blank" class="useful-link">
+        Datos de empleabilidad e ingresos
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
       </a>
       <a href="https://acceso.mineduc.cl/portal-ranking/" target="_blank" class="useful-link">
         Info Puntaje Ranking
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      </a>
+      <a href="https://demre.cl" target="_blank" class="useful-link">
+        Sitio Oficial DEMRE
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
       </a>
     </div>
@@ -555,7 +567,9 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
     }
 
-    tabButtons.forEach(button => button.addEventListener('click', () => activateTab(button.dataset.tab)));
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => activateTab(button.dataset.tab));
+    });
     
     const lastTab = localStorage.getItem('lastTab') || 'calculadora-nem';
     activateTab(lastTab);
@@ -589,7 +603,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     window.addEventListener('scroll', () => backToTopBtn.classList.toggle('show', window.scrollY > 300));
     backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
-
+  
   function mostrarError(elementId, show, message = '') {
       const errorEl = getEl(elementId);
       errorEl.textContent = message;
@@ -601,8 +615,8 @@ document.addEventListener('DOMContentLoaded', async function() {
       const value = parseFloat(input.value.replace(',', '.'));
       const isValid = !isNaN(value) && value >= 1.0 && value <= 7.0;
       input.classList.toggle('valid', isValid);
-      input.classList.toggle('invalid', !isValid && input.value !== '');
-      mostrarError(inputId + '-error', !isValid && input.value !== '', 'Nota inválida (1.0 - 7.0)');
+      input.classList.toggle('invalid', !isValid && input.value.trim() !== '');
+      mostrarError(inputId + '-error', !isValid && input.value.trim() !== '', 'Nota inválida (1.0 - 7.0)');
       return isValid;
   }
   
@@ -611,12 +625,25 @@ document.addEventListener('DOMContentLoaded', async function() {
       const value = parseInt(input.value, 10);
       const isValid = !isNaN(value) && value >= 100 && value <= 1000;
       input.classList.toggle('valid', isValid);
-      input.classList.toggle('invalid', !isValid && input.value !== '');
-      return isValid || input.value === '';
+      input.classList.toggle('invalid', !isValid && input.value.trim() !== '');
+      return isValid || input.value.trim() === '';
   }
 
-
   // --- NEM CALCULATOR LOGIC ---
+  function formatarNotaInput(inputId) {
+    const input = getEl(inputId);
+    let value = input.value.trim();
+    if (/^\d{2}$/.test(value)) {
+      if (value[0] >= '1' && value[0] <= '7') {
+        if (value === '70') {
+          input.value = '7.0';
+        } else if (value[0] < '7') {
+          input.value = `${value[0]}.${value[1]}`;
+        }
+      }
+    }
+  }
+
   function buscarPuntaje(grupo, nota) {
     const tabla = tablasNEM[grupo];
     if (!tabla || Object.keys(tabla).length === 0) {
@@ -626,8 +653,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     const notaRedondeada = redondearNota(nota);
     const notaStr = notaRedondeada.toFixed(2);
     if (tabla[notaStr] !== undefined) return tabla[notaStr];
-    
-    // Si la nota exacta no está, busca la más cercana hacia abajo (como lo hace el DEMRE)
     const claves = Object.keys(tabla).map(Number).sort((a, b) => a - b);
     for (let i = claves.length - 1; i >= 0; i--) {
       if (claves[i] <= notaRedondeada) return tabla[claves[i].toFixed(2)];
@@ -637,6 +662,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   function calcularNEM() {
     const btn = getEl('calcular-btn');
+    if (btn.disabled) return;
     const spinner = btn.querySelector('.spinner');
     spinner.style.display = 'inline-block';
     btn.disabled = true;
@@ -657,7 +683,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
 
       const notas = ['nem1', 'nem2', 'nem3', 'nem4'].map(id => {
-          if (!validarNota(id) && getEl(id).value !== '') allValid = false;
+          if (!validarNota(id) && getEl(id).value.trim() !== '') allValid = false;
           return parseFloat(getEl(id).value.replace(',', '.'));
       });
       
@@ -699,6 +725,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const carreraSelect = getEl('carrera');
     const universidades = [...new Set(carrerasData.map(c => c.universidad))].sort();
 
+    uniSelect.innerHTML = '<option value="">-- Selecciona una universidad --</option>';
     universidades.forEach(uni => uniSelect.add(new Option(uni, uni)));
 
     uniSelect.addEventListener('change', () => {
@@ -711,9 +738,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                 .filter(c => c.universidad === selectedUni)
                 .sort((a, b) => a.carrera.localeCompare(b.carrera));
             
-            carreras.forEach((c, index) => {
+            carreras.forEach((c) => {
                 const optionText = `${c.carrera}${c.sede ? ` (${c.sede})` : ''}`;
-                // Usamos un ID único para evitar colisiones
                 const uniqueId = `${c.universidad}-${c.carrera}-${c.sede || ''}`;
                 carreraSelect.add(new Option(optionText, uniqueId));
             });
@@ -750,7 +776,6 @@ document.addEventListener('DOMContentLoaded', async function() {
           }
       });
       
-      // Lógica de disclaimers original
       const disclaimers = {
         "Pontificia Universidad Católica de Chile": ["Actuación", "Música", "Interpretación Musical"],
         "Universidad de Chile": ["Actuación Teatral", "Danza", "Diseño Teatral", "Interpretación Musical", "Sonido", "Teoría de la Música", "Teoría del Arte"],
@@ -767,6 +792,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   function simularPuntaje() {
     const btn = getEl('simular-btn');
+    if (btn.disabled) return;
     const spinner = btn.querySelector('.spinner');
     spinner.style.display = 'inline-block';
     btn.disabled = true;
@@ -903,7 +929,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     // --- EVENT LISTENERS ---
     getEl('calcular-btn').addEventListener('click', calcularNEM);
     getEl('limpiar-btn').addEventListener('click', limpiarFormularioNEM);
-
     getEl('simular-btn').addEventListener('click', simularPuntaje);
     getEl('guardar-sim-btn').addEventListener('click', saveSimulation);
     
@@ -916,22 +941,20 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
     });
 
-    queryAll('#calculadora-nem input, #calculadora-nem select').forEach(input => {
-      input.addEventListener('input', () => {
-        if(input.id === 'grupo') {
-          if (input.value) {
-            input.classList.add('valid');
-            input.classList.remove('invalid');
-            mostrarError('grupo-error', false);
-          }
-        } else {
+    queryAll('#calculadora-nem input[type="text"]').forEach(input => {
+      input.addEventListener('keypress', (e) => { if (e.key === 'Enter') getEl('calcular-btn').click(); });
+      input.addEventListener('blur', () => {
+          formatarNotaInput(input.id);
           validarNota(input.id);
-        }
       });
+      input.addEventListener('input', () => validarNota(input.id));
     });
 
-    ['p-nem', 'p-ranking', 'p-lectora', 'p-m1', 'p-m2', 'p-ciencias', 'p-historia'].forEach(id => {
-        getEl(id).addEventListener('input', () => validarPuntajePAES(id));
+    getEl('grupo').addEventListener('keypress', (e) => { if (e.key === 'Enter') getEl('calcular-btn').click(); });
+
+    queryAll('#simulador-paes input[type="number"]').forEach(input => {
+        input.addEventListener('keypress', (e) => { if (e.key === 'Enter') getEl('simular-btn').click(); });
+        input.addEventListener('input', () => validarPuntajePAES(input.id));
     });
 
     renderSavedSimulations();
