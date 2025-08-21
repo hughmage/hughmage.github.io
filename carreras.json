@@ -15793,5 +15793,695 @@
       "Ciencias": 10
     },
     "corte_2025": 542.45
+  }.
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Arquitectura",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 737.25
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Arquitectura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 759.90
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 747.35
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 791.35
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Ambiental",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 690.35
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil de Minas",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 799.35
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Eléctrica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 782.30
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Eléctrica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 803.45
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Electrónica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 748.95
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil en Biotecnología",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 756.85
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Física",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 702.75
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Física",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 762.05
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 784.55
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 840.05
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 769.10
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 819.80
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Matemática",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 815.35
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Matemática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 795.70
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 758.55
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 811.35
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Metalúrgica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 730.30
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Plan Común",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 745.50
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Plan Común",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 815.60
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Química",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 769.25
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Química",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 806.95
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Telemática",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 685.95
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Civil Telemática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 750.00
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Aviación Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 709.40
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Biotecnología",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 598.10
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Biotecnología",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 545.05
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Diseño de Productos",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 631.45
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Diseño de Productos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 638.50
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Fabricación y Diseño Industrial",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 583.00
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Informática",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 663.30
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Informática",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 583.25
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Mantenimiento Industrial",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 586.00
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Mantenimiento Industrial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 593.05
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Prevención de Riesgos Laborales y Ambientales",
+    "sede": "Viña del Mar",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 556.85
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería en Prevención de Riesgos Laborales y Ambientales",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 524.85
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Construcción Civil",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 625.95
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 724.90
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 780.20
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Licenciatura en Astrofísica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 706.45
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Licenciatura en Astrofísica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 738.55
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Licenciatura en Física",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 694.15
+  },
+  {
+    "universidad": "Universidad Técnica Federico Santa María",
+    "carrera": "Licenciatura en Física",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 10,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 721.70
   }
 ]
