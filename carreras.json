@@ -10918,5 +10918,1085 @@
       "Ciencias": 10
     },
     "corte_2025": 570.2
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Análisis y Gestión de Procesos Productivos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 453.25
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Analista en Computación Científica / Licenciatura en Ciencias",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 674.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Astrofísica con Mención en Ciencia de Datos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 20,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 693.0
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Administración Pública",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 713.2
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Arquitectura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 747.8
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Bachillerato en Ciencias y Humanidades",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 763.5
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Bioquímica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 808.15
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Contador Público y Auditor (Diurno)",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 694.1
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Contador Público y Auditor (Vespertino)",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 682.85
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 776.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Diseño en Comunicación Visual",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 676.7
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Diseño Industrial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 641.8
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Enfermería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 810.75
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil Biomédica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 750.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Ambiente",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 658.9
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Biotecnología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 735.55
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Electricidad",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 753.3
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Geomensura y Geomática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 613.05
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Industria",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 791.6
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Informática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 784.9
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Mecánica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 730.7
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Metalurgia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 718.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Minas",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 776.35
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Obras Civiles",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 709.0
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Química",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 730.75
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Telemática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 676.2
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil en Territorio y Medioambiente",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 552.95
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Civil Mecatrónica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 706.3
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Alimentos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 571.95
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Ejecución en Climatización",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 557.7
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Ejecución en Computación e Informática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 743.25
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Ejecución en Electricidad",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 698.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Ejecución en Industria",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 715.85
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Ejecución en Mecánica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 661.75
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Ejecución en Metalurgia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 643.2
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Ejecución en Minas",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 684.9
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería de Ejecución en Química",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 604.2
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería en Agronegocios",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 573.1
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Estadística",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 701.9
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Física",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 15,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 657.35
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Matemática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 674.2
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Kinesiología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 764.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Licenciatura en Historia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 576.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Medicina",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 934.2
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 800.9
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Castellano",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 672.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Educación Física",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 642.25
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Educación General Básica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 650.3
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Filosofía",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 524.1
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Física y Matemática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 614.9
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Historia y Ciencias Sociales",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 667.8
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 685.2
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Matemática y Computación",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 620.3
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Pedagogía en Química y Biología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 652.35
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Periodismo",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 684.1
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 812.1
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Química y Farmacia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 855.45
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 708.1
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 735.05
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Gestión de Personas",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 555.1
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Licenciatura en Ciencias de la Actividad Física / En Estudio del Tema",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 666.8
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Licenciatura en Ciencias de la Actividad Física / Terapeuta",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 579.15
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Licenciatura en Estudios Internacionales",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 789.0
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Licenciatura en Lingüística Aplicada a la Traducción Inglés - Japonés",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 785.5
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Publicidad",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 687.8
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Química",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 765.55
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Técnico Universitario en Análisis Químico y Físico",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 612.8
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Tecnología en Alimentos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 513.55
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Tecnología en Automatización Industrial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 571.5
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Tecnología en Construcciones",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 484.65
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Tecnología en Mantenimiento Industrial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 469.4
+  },
+  {
+    "universidad": "Universidad de Santiago de Chile",
+    "carrera": "Tecnología en Telecomunicaciones",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 527.3
   }
 ]
