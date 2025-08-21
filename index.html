@@ -374,6 +374,10 @@
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20V16"></path></svg>
       Simular Puntaje
     </button>
+    <button id="limpiar-simulador-btn" class="secondary">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+      Limpiar Simulador
+    </button>
     <div id="resultado-simulador">
         <h3 class="result-title">Resultado de la Simulación</h3>
         <div class="puntaje-box"><div class="result-item"><span>Tu Puntaje Ponderado:</span><span id="puntaje-ponderado" class="result-value"></span></div></div>
@@ -912,6 +916,27 @@ document.addEventListener('DOMContentLoaded', async function() {
       renderSavedSimulations();
   }
 
+  function limpiarFormularioSimulador() {
+  const uniSelect = getEl('universidad');
+  uniSelect.selectedIndex = 0;
+    
+  const carreraSelect = getEl('carrera');
+  carreraSelect.innerHTML = '<option value="">-- Selecciona una universidad --</option>';
+  carreraSelect.disabled = true;
+
+    ['p-nem', 'p-ranking', 'p-lectora', 'p-m1', 'p-m2', 'p-ciencias', 'p-historia'].forEach(id => {
+      const el = getEl(id);
+      el.value = '';
+      el.className = '';
+      el.disabled = false;
+    });
+    
+    queryAll('.ponderacion-info').forEach(el => el.textContent = '');
+
+    getEl('resultado-simulador').style.display = 'none';
+    getEl('disclaimer-box').style.display = 'none';
+  }
+
   // --- INITIALIZATION ---
   async function initialize() {
     setupTheme();
@@ -930,6 +955,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     getEl('calcular-btn').addEventListener('click', calcularNEM);
     getEl('limpiar-btn').addEventListener('click', limpiarFormularioNEM);
     getEl('simular-btn').addEventListener('click', simularPuntaje);
+    getEl('limpiar-simulador-btn').addEventListener('click', limpiarFormularioSimulador);
     getEl('guardar-sim-btn').addEventListener('click', saveSimulation);
     
     getEl('saved-sim-grid').addEventListener('click', (e) => {
