@@ -14968,5 +14968,830 @@
       "Ciencias": 10
     },
     "corte_2025": 514.00
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Agronomía",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 35,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 488.80
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Agronomía",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 576.80
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Animación Digital",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 637.60
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Animación Digital",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 621.70
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Biotecnología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 25,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 533.80
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Cine",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 564.70
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Geología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 50,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 485.50
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Interpretación Musical Superior",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 827.60
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Administración Pública",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 518.90
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Arquitectura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 519.70
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Arquitectura",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 25
+    },
+    "corte_2025": 596.75
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Bachillerato en Ciencias de la Salud",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 718.80
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Bachillerato en Ciencias de la Salud",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 781.15
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 50,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 494.80
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Derecho",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 30
+    },
+    "corte_2025": 566.30
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Diseño Mención Gráfico, Industrial o Ambientes",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 525.60
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Enfermería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 35,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 692.40
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Enfermería",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 691.60
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Fonoaudiología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 409.10
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Fonoaudiología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 559.80
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería Civil Electrónica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 55,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 510.75
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería Civil en Computación e Informática",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 55,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 633.75
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería Civil en Minas",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 55,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 615.65
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 55,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 584.45
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 45,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 705.05
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 50,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 575.00
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería en Administración",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 511.15
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería en Ciencia de Datos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 45,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 505.65
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 45,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 458.85
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 45,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 523.85
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería en Medio Ambiente y Sustentabilidad",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 516.15
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Kinesiología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 20,
+      "M1": 45,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 623.45
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Kinesiología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 656.00
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Medicina",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 30
+    },
+    "corte_2025": 904.10
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Medicina",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 30
+    },
+    "corte_2025": 876.75
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Medicina Veterinaria",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 631.25
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Medicina Veterinaria",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 674.55
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 462.00
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Nutrición and Dietética",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 596.60
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 710.15
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 738.50
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Odontología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 736.90
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Odontología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 697.20
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Pedagogía en Educación Diferencial - Discapacidad Intelectual",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 482.90
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Pedagogía en Educación Parvularia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 35,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 524.85
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 50,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 663.60
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Psicología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 40,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 623.50
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Teatro",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 447.80
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Tecnología Médica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 30,
+      "Ciencias": 30
+    },
+    "corte_2025": 654.20
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Tecnología Médica",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 25,
+      "Ciencias": 25
+    },
+    "corte_2025": 667.00
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 15,
+      "Lectora": 35,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 534.30
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 570.60
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Turismo Sustentable",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 35,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 470.25
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 552.05
+  },
+  {
+    "universidad": "Universidad Mayor",
+    "carrera": "Pedagogía en Educación Física, Deportes y Recreación para Educación Básica y Media",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 35,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 542.45
   }
 ]
