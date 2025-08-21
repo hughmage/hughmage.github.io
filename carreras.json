@@ -12598,5 +12598,830 @@
       "Ciencias": 0
     },
     "corte_2025": 653.9
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Auditoría",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 35,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 448.60
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Auditoría",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 35,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 496.60
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Cine",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 470.50
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ecología",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 406.80
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Administración Hotelera y Gastronómica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 444.20
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Administración Pública",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 481.15
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Administración Pública",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 465.35
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Arquitectura",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 619.50
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Biología Marina",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Cciences": 15
+    },
+    "corte_2025": 650.05
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Derecho",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 714.95
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Diseño",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 396.50
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Enfermería",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 735.45
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Enfermería",
+    "sede": "San Felipe",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 679.30
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Fonoaudiología",
+    "sede": "San Felipe",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 538.10
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Fonoaudiología",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 626.10
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Gestión en Turismo y Cultura",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 448.90
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Ambiental",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 466.25
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 543.00
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil - Plan Común",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 476.20
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil Ambiental",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 510.30
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil Biomédica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 468.20
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 656.80
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 572.20
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 609.90
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil Matemática",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 582.45
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Civil Oceánica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 474.05
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 444.25
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería en Estadística y Ciencia de Datos",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 15,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 487.15
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería en Información y Control de Gestión",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 450.70
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería en Informática",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 35,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 483.95
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería en Negocios Internacionales",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 635.00
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería en Negocios Internacionales",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 667.10
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Kinesiología",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 25
+    },
+    "corte_2025": 639.25
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Licenciatura en Ciencias Mención en Biología o Medicina",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 540.60
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Medicina",
+    "sede": "San Felipe",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 886.40
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Medicina",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 913.30
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 45,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 658.45
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "San Felipe",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 680.70
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 30,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 721.60
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Odontología",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 785.00
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Pedagogía en Filosofía",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 505.90
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Pedagogía en Historia y Ciencias Sociales",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 0
+    },
+    "corte_2025": 485.70
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Pedagogía en Lengua y Literatura",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 455.80
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Pedagogía en Matemáticas o Licenciatura en Matemáticas",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 35,
+      "Lectora": 10,
+      "M1": 30,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 492.20
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Pedagogía en Música",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 481.80
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Química y Farmacia",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 45,
+      "Lectora": 15,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 837.95
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Sociología",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 20,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 503.45
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Teatro",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 570.90
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Tecnología Médica",
+    "sede": "San Felipe",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 662.80
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Tecnología Médica",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 701.50
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Educación Parvularia",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 593.30
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 612.20
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 513.70
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Licenciatura en Física Mención Astronomía o Ciencias",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 10,
+      "M1": 45,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 439.95
+  },
+  {
+    "universidad": "Universidad de Valparaíso",
+    "carrera": "Trabajo Social",
+    "sede": "Valparaíso",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 506.50
   }
 ]
