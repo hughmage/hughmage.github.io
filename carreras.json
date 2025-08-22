@@ -17173,5 +17173,665 @@
       "Ciencias": 10
     },
     "corte_2025": 520.70
+  }.
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Agronomía",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 618.90
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Biotecnología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 692.10
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Bachillerato en Ciencias Sociales",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 556.80
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Bioquímica",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 670.70
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Contador Público y Auditor",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 637.80
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Derecho",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 591.05
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Enfermería",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 720.70
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Fonoaudiología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 592.85
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 646.90
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Ambiental",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 00,
+      "Ciencias": 10
+    },
+    "corte_2025": 485.40
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Eléctrica",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 00,
+      "Ciencias": 10
+    },
+    "corte_2025": 648.50
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Electrónica",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 582.50
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil en Biotecnología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 579.90
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 728.30
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Informática",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 713.10
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Matemática",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 611.80
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Mecánica",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 627.10
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Química",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 551.50
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Civil Telemática",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 456.20
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería en Construcción",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 443.30
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería en Recursos Naturales",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 15,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 445.60
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Informática",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 634.60
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Kinesiología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 678.00
+  },
+  {
+    "universidad": "Universidad de la Fronterior",
+    "carrera": "Medicina",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 918.70
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Medicina Veterinaria",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 727.80
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 585.25
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Obstetricia y Puericultura",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 734.05
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Odontología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 768.50
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Pedagogía en Historia, Geografía y Educación Cívica",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 509.70
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Pedagogía en Castellano y Comunicación",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 587.00
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Pedagogía en Matemática",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 5,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 484.20
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Pedagogía en Ciencias con Mención en Biología, Química o Física",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 15
+    },
+    "corte_2025": 552.35
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Pedagogía en Educación Diferencial",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 554.00
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Pedagogía en Educación Física, Deportes y Recreación",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 644.50
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Pedagogía en Inglés",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 567.00
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Periodismo",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 591.30
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Plan Común Ingeniería Civil",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 10,
+      "M1": 20,
+      "M2": 10,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 645.80
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Psicología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 736.10
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Química y Farmacia",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 823.70
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Sociología",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 15,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 0
+    },
+    "corte_2025": 422.40
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Tecnología Médica",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 745.25
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 20
+    },
+    "corte_2025": 605.35
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 643.30
+  },
+  {
+    "universidad": "Universidad de la Frontera",
+    "carrera": "Trabajo Social",
+    "sede": "Temuco",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 50,
+      "Lectora": 20,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 0
+    },
+    "corte_2025": 566.30
   }
 ]
