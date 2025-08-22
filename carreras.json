@@ -16483,5 +16483,695 @@
       "Ciencias": 10
     },
     "corte_2025": 721.70
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Bachillerato en Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 557.90
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ciencia Política y Políticas Públicas",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 20,
+      "Ciencias": 20
+    },
+    "corte_2025": 517.70
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Cine",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 517.00
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Data Business Intelligence",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 751.40
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Geología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 45,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 547.20
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 537.50
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Derecho",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 25,
+      "Lectora": 35,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 544.80
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Diseño",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 35,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 514.40
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Enfermería",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 526.50
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil en Informática e Innovación Tecnológica",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 570.80
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Comercial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 761.10
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 660.65
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Publicidad",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 540.00
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Arquitectura",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 574.85
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Arquitectura",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 527.35
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Bachillerato en Derecho, Ciencias Sociales y Humanidades",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 516.80
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Bachillerato en Diseño",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 35,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 514.15
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Bachillerato en Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 35,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 575.90
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 530.70
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Derecho",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 40,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 734.00
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Diseño",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 35,
+      "M1": 35,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 602.05
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Odontología",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 40,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 698.70
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Enfermería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 635.10
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Periodismo y Comunicación",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 530.30
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Global Business Administration",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 30,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 868.50
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil en Biomedicina",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 882.70
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil en Informática e Innovación Tecnológica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 701.50
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Psicología",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 35,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 559.25
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil en Informática e Inteligencia Artificial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 723.50
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil en Minería",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 652.65
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil en Obras Civiles",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 534.75
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil Industrial",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 730.50
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Ingeniería Civil Plan Común",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 5,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 572.20
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Kinesiología",
+    "sede": "Concepción",
+    "ponderaciones": {
+      "NEM": 15,
+      "Ranking": 30,
+      "Lectora": 25,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 519.00
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Kinesiología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 551.00
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Medicina",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 10,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 0,
+      "Ciencias": 10
+    },
+    "corte_2025": 954.80
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Nutrición y Dietética",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 30,
+      "Lectora": 15,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 10,
+      "Cciences": 10
+    },
+    "corte_2025": 500.75
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Obstetricia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 652.80
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Odontología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 25,
+      "M2": 0,
+      "Historia": 15,
+      "Ciencias": 15
+    },
+    "corte_2025": 737.00
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Pedagogía en Educación Básica con Menciones",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 20,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 512.40
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Pedagogía en Educación de Párvulos",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 25,
+      "M1": 15,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 501.75
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Periodismo y Comunicación",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 25,
+      "Ranking": 25,
+      "Lectora": 30,
+      "M1": 10,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 525.30
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Psicología",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 25,
+      "Lectora": 35,
+      "M1": 20,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 742.80
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Química y Farmacia",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 771.60
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Tecnología Médica",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 20,
+      "Ranking": 20,
+      "Lectora": 20,
+      "M1": 30,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 514.30
+  },
+  {
+    "universidad": "Universidad del Desarrollo",
+    "carrera": "Terapia Ocupacional",
+    "sede": "Santiago",
+    "ponderaciones": {
+      "NEM": 10,
+      "Ranking": 10,
+      "Lectora": 30,
+      "M1": 40,
+      "M2": 0,
+      "Historia": 10,
+      "Ciencias": 10
+    },
+    "corte_2025": 520.70
   }
 ]
